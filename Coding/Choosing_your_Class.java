@@ -42,7 +42,7 @@ public class Choosing_your_Class {
                 System.out.println("10. Spartan Spear");
             int barbmart = scanner.nextInt();
                 if (barbmart > 0) {
-                    System.out.println("Good choice");
+                    System.out.println("Good choice, a barbarian is able to wield almost any weapon with ease. You have chosen wisely");
                 }
             }
         }
