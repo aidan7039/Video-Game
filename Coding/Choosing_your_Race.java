@@ -1,12 +1,12 @@
 package Coding;
 
 import java.util.Scanner;
-public class Chosing_your_Race {
+public class Choosing_your_Race {
 
 
     public static void main(String[] args) {
         Scanner hello = new Scanner(System.in);
-        System.out.println("enter your selected Species");
+        System.out.println("Enter your selected Species");
         System.out.println("1. Human");
         System.out.println("2. Elf");
         System.out.println("3. Dwarf");
