@@ -1,6 +1,5 @@
 package Coding;
 
-import java.awt.SystemTray;
 import java.util.Scanner;
 public class Choosing_your_Class {
 
@@ -26,7 +25,7 @@ public class Choosing_your_Class {
             System.out.println("2. Any martial weapon");
             int barbeqp = scanner.nextInt();
             if (barbeqp == 1) {
-                System.out.println("A greataxe, eh? Some say it is the Barbarian's best friend");
+                System.out.println("A greataxe, eh? Some say it is the Barbarian's best friend.");
             }
             if (barbeqp == 2){
                 System.out.println("Choose any martial weapon");
@@ -42,10 +41,26 @@ public class Choosing_your_Class {
                 System.out.println("10. Spartan Spear");
             int barbmart = scanner.nextInt();
                 if (barbmart > 0) {
-                    System.out.println("Good choice, a barbarian is able to wield almost any weapon with ease. You have chosen wisely");
+                    System.out.println("Good choice, a barbarian is able to wield almost any weapon with ease. You have chosen wisely.");
                 }
             }
         }
+
+        if (Class == 2) {
+            System.out.println("You chose cleric, you use the power of the gods to carry out their will.");
+            System.out.println("Your hit die is 1d8, you are proficient with light armor, medium armor, shields, and simple weapons.");
+            System.out.println("Choose some starting equipment");
+            System.out.println("1. A mace");
+            System.out.println("2. A warhammer");
+            int clreqp = scanner.nextInt();
+            if (clreqp == 1) {
+                System.out.println("A mace is a good weapon for a cleric, it's strong blow is a representation of the wrath of the gods.");
+            }
+            if (clreqp == 2) {
+                System.out.println("A warhammer is a great weapon for a cleric, it's tried and true and delivers devastating blows.");
+            }
+        }
+
 
     scanner.close();
 
