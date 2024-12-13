@@ -14,13 +14,13 @@ public class Chosing_your_Race {
         System.out.println("5. Dragonborn");
         int species = hello.nextInt();
         if (species == 2) {
-            System.out.println("You chose elf your stats are 1 Str, 1 Dex, 1 Con, 1 Wis, 1 Int, 1 Cha");
+            System.out.println("You chose elf your stats are 10 Str, 10 Dex, 10 Con, 10 Wis, 10 Int, 10 Cha");
         }if (species == 1) {
-            System.out.println("You chose Human your stats are 1 Str, 1 Dex, 1 Con, 1 Wis, 1 Int, 1 Cha");
+            System.out.println("You chose Human your stats are 10 Str, 10 Dex, 10 Con, 10 Wis, 10 Int, 10 Cha");
         }if (species == 3) {
-            System.out.println("You chose Dwarf your stats are 1 Str, 1 Dex, 1 Con, 1 Wis, 1 Int, 1 Cha");
+            System.out.println("You chose Dwarf your stats are 10 Str, 10 Dex, 10 Con, 10 Wis, 10 Int, 10 Cha");
         }if (species == 4) {
-            System.out.println("You chose Halfling your stats are 1 Str, 1 Dex, 1 Con, 1 Wis, 1 Int, 1 Cha");
+            System.out.println("You chose Halfling your stats are 10 Str, 10 Dex, 10 Con, 10 Wis, 10 Int, 10 Cha");
         }if (species > 5) {
             System.out.println("you are a ant");
             System.out.println("its stats are 0 Str, 1 Dex, 0 Con, 0 Wis, 0 Int, 0 Cha");
