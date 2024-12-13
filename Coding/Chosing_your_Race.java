@@ -14,9 +14,9 @@ public class Chosing_your_Race {
         System.out.println("5. Dragonborn");
         int species = hello.nextInt();
         if (species == 2) {
-            System.out.println("You chose elf your stats are 10 Str, 10 Dex, 10 Con, 10 Wis, 10 Int, 10 Cha");
+            System.out.println("You chose elf your stats are 10 Str, 12 Dex, 10 Con, 10 Wis, 11 Int, 10 Cha");
         }if (species == 1) {
-            System.out.println("You chose Human your stats are 10 Str, 10 Dex, 10 Con, 10 Wis, 10 Int, 10 Cha");
+            System.out.println("You chose Human your stats are 11 Str, 11 Dex, 11 Con, 11 Wis, 11 Int, 11 Cha");
         }if (species == 3) {
             System.out.println("You chose Dwarf your stats are 10 Str, 10 Dex, 10 Con, 10 Wis, 10 Int, 10 Cha");
         }if (species == 4) {
