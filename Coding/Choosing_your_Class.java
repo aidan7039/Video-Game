@@ -25,6 +25,9 @@ public class Choosing_your_Class {
             System.out.println("1. A greataxe");
             System.out.println("2. Any martial weapon");
             int barbeqp = scanner.nextInt();
+            if (barbeqp == 1) {
+                System.out.println("A greataxe, some say it is the Barbarian's best friend");
+            }
             if (barbeqp == 2){
                 System.out.println("Choose any martial weapon");
                 System.out.println("1. Longstaff");
