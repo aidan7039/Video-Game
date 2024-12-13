@@ -35,6 +35,12 @@ public class Choosing_your_Class {
                 System.out.println("6. Heavy Glaive");
                 System.out.println("7. Katana");
                 System.out.println("8. Scythe Cleaver");
+                System.out.println("9. Medium Sword");
+                System.out.println("10. Spartan Spear");
+            int barbmart = scanner.nextInt();
+                if (barbmart > 0) {
+                    System.out.println("Good choice");
+                }
             }
         }
 
