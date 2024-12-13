@@ -70,11 +70,11 @@ public class Choosing_your_Class {
 
         }
         if (Class == 4) {
-            System.out.println("you chose fighter, you are a specialist in all forms of melee combat.");
+            System.out.println("You chose fighter, you are a specialist in all forms of melee combat.");
             System.out.println("Your hit die is 1d10, you are proficient with all armor and shields as well as all simple and martial weapons.");
             System.out.println("Choose some starting equipment");
             System.out.println("1. A martial weapon and a shield");
-            System.out.println("2. Two martian weapons");
+            System.out.println("2. Two martial weapons");
             int fiter = scanner.nextInt();
             if (fiter == 1) {
                 System.out.println("choose a martial weapon");
@@ -90,7 +90,7 @@ public class Choosing_your_Class {
                 System.out.println("10. Spartan Spear");
                 int fit = scanner.nextInt();
                 if (fit > 0) {
-                    System.out.println("Good choice, a fighter is able to weild any martial weapon with great skill and a shield is a great choice for defence.");
+                    System.out.println("Good choice, a fighter is able to wield any martial weapon with great skill and a shield is a great choice for defence.");
                 }
 
             }
