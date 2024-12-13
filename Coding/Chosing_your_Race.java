@@ -25,7 +25,7 @@ public class Chosing_your_Race {
             System.out.println("you are a ant");
             System.out.println("its stats are 0 Str, 1 Dex, 0 Con, 0 Wis, 0 Int, 0 Cha");
         }if (species == 5) {
-            System.out.println("You chose Dragonborn your stats are 10 Str, 10 Dex, 10 Con, 10 Wis, 10 int, 10 Cha");
+            System.out.println("You chose Dragonborn your stats are 12 Str, 10 Dex, 10 Con, 10 Wis, 10 int, 11 Cha");
         }
     }
 
