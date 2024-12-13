@@ -80,6 +80,10 @@ public class Choosing_your_Class {
                 System.out.println("8. Scythe Cleaver");
                 System.out.println("9. Medium Sword");
                 System.out.println("10. Spartan Spear");
+                int fit = scanner.nextInt();
+                if (fit > 0) {
+                    System.out.println("Good choice, a fighter is able to weild any martial weapon with great skill and a shield is a great choice for defence.");
+                }
 
             }
 
