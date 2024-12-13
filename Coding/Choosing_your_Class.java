@@ -46,7 +46,6 @@ public class Choosing_your_Class {
                 }
             }
         }
-
         if (Class == 2) {
             System.out.println("You chose cleric, you use the power of the gods to carry out their will.");
             System.out.println("Your hit die is 1d8, you are proficient with light armor, medium armor, shields, and simple weapons.");
@@ -59,6 +58,28 @@ public class Choosing_your_Class {
             }
             if (clreqp == 2) {
                 System.out.println("A warhammer is a great weapon for a cleric, it's tried and true and delivers devastating blows.");
+            }
+        }
+        if (Class == 4) {
+            System.out.println("you chose fighter, you are a specialist in all forms of Melee combat");
+            System.out.println("Your Hit die is 1d10, you are proficient with all armor and shields as well as all simple and martial weapons");
+            System.out.println("Choose some starting equipment");
+            System.out.println("1. A martial weapon and a shield");
+            System.out.println("2. Two martian weapons");
+            int fiter = scanner.nextInt();
+            if (fiter == 1) {
+                System.out.println("choose a martial weapon");
+                System.out.println("1. Longstaff");
+                System.out.println("2. Ball & Chain");
+                System.out.println("3. Billhook");
+                System.out.println("4. Dueling Daggers");
+                System.out.println("5. Dueling Shield");
+                System.out.println("6. Heavy Glaive");
+                System.out.println("7. Katana");
+                System.out.println("8. Scythe Cleaver");
+                System.out.println("9. Medium Sword");
+                System.out.println("10. Spartan Spear");
+
             }
         }
 
