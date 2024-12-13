@@ -50,7 +50,17 @@ public class Choosing_your_Class {
             System.out.println("1. Two handaxes");
             System.out.println("2. Any simple weapon");
             int barbeqp2 = scanner.nextInt();
-            //START HERE!!!
+            if (barbeqp2 == 1) {
+                System.out.println("Two handaxes will make for a powerful flurry of attacks that will leave your foes frozen where they stand.");
+            }
+            if (barbeqp2 == 2) {
+                System.out.println("Choose any simple weapon");
+                System.out.println("1. Club");
+                System.out.println("2. Dagger");
+                System.out.println("3. Quarterstaff");
+                System.out.println("4. Sickle");
+                //finish making 10 simple weapons (there's a link to all of the simple weapons in Discord
+            }
 
             System.out.println("Here take this explorer's pack and these four javelins, you'll need them on your adventure");
         }
