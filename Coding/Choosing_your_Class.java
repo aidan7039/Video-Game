@@ -45,6 +45,13 @@ public class Choosing_your_Class {
                     System.out.println("Good choice, a barbarian is able to wield almost any weapon with ease. You have chosen wisely.");
                 }
             }
+
+            System.out.println("Choose between two handaxes and any simple weapon");
+            System.out.println("1. Two handaxes");
+            System.out.println("2. Any simple weapon");
+            int barbeqp2 = scanner.nextInt();
+            //START HERE!!!
+
             System.out.println("Here take this explorer's pack and these four javelins, you'll need them on your adventure");
         }
         if (Class == 2) {
@@ -53,13 +60,14 @@ public class Choosing_your_Class {
             System.out.println("Choose some starting equipment");
             System.out.println("1. A mace");
             System.out.println("2. A warhammer");
-            int clrceqp = scanner.nextInt();
-            if (clrceqp == 1) {
+            int clrceqp1 = scanner.nextInt();
+            if (clrceqp1 == 1) {
                 System.out.println("A mace is a good weapon for a cleric, it's strong blow is a representation of the wrath of the gods.");
             }
-            if (clrceqp == 2) {
+            if (clrceqp1 == 2) {
                 System.out.println("A warhammer is a great weapon for a cleric, it's tried and true and delivers devastating blows.");
             }
+
         }
         if (Class == 4) {
             System.out.println("you chose fighter, you are a specialist in all forms of melee combat.");
