@@ -125,8 +125,13 @@ public class Choosing_your_Class {
             System.out.println("Your hit die is one 1d6, you are proficient with daggers, darts, slings, quarter staffs, and light crossbows ");
             System.out.println("As a Wizard sadly you can not wear any armor whatsoever so be careful");
             System.out.println("Choose some starting equipment");
-            System.out.println("1. ");
-            System.out.println("2. ");
+            System.out.println("1. Quarter staff, component pouch, and a spellbook");
+            System.out.println("2. Dagger, arcane focus, and a spellbook");
+            int wizequip = scanner.nextInt();
+
+            if (wizequip > 0) {
+                System.out.println("Interesting choice I'm excited to see how your adventure goes");
+            }
         }
 
     scanner.close();
