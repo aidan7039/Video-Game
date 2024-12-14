@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Choosing_your_Race {
 
 
-    public static void main(String[] args) {
+    public static void Run2() {
         Scanner hello = new Scanner(System.in);
         System.out.println("Please choose your race");
         System.out.println("1. Human");
