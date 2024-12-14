@@ -163,41 +163,91 @@ public class Choosing_your_Class {
                 System.out.println("You chose fighter, you are a specialist in all forms of melee combat.");
                 System.out.println("Your hit die is 1d10, you are proficient with all armor and shields as well as all simple and martial weapons.");
                 System.out.println("Choose some starting equipment");
-                System.out.println("1. A martial weapon and a shield");
-                System.out.println("2. Two martial weapons");
-                int fiter = scanner.nextInt();
-                if (fiter == 1) {
-                    System.out.println("choose a martial weapon");
-                    System.out.println("1. Longstaff");
-                    System.out.println("2. Ball & Chain");
-                    System.out.println("3. Billhook");
-                    System.out.println("4. Dueling Daggers");
-                    System.out.println("5. Dueling Shield");
-                    System.out.println("6. Heavy Glaive");
-                    System.out.println("7. Katana");
-                    System.out.println("8. Scythe Cleaver");
-                    System.out.println("9. Medium Sword");
-                    System.out.println("10. Spartan Spear");
-                    int fit = scanner.nextInt();
-                    if (fit > 0) {
-                        System.out.println("Good choice, a fighter is able to wield any martial weapon with great skill and a shield is a great choice for defence.");
+                System.out.println("1. chain mail");
+                System.out.println("2. Leather armor, a longbow, and 20 arrows");
+                int fiters = scanner.nextInt();
+                if (fiters == 1) {
+                    System.out.println("Chain mail will provide you with great protection but a disadvantage in stealth");
+                    System.out.println("1. A martial weapon and a shield");
+                    System.out.println("2. Two martial weapons");
+                    int fiter = scanner.nextInt();
+                    if (fiter == 1) {
+                        System.out.println("choose a martial weapon");
+                        System.out.println("1. Longstaff");
+                        System.out.println("2. Ball & Chain");
+                        System.out.println("3. Billhook");
+                        System.out.println("4. Dueling Daggers");
+                        System.out.println("5. Dueling Shield");
+                        System.out.println("6. Heavy Glaive");
+                        System.out.println("7. Katana");
+                        System.out.println("8. Scythe Cleaver");
+                        System.out.println("9. Medium Sword");
+                        System.out.println("10. Spartan Spear");
+                        int fit = scanner.nextInt();
+                        if (fit > 0) {
+                            System.out.println("Good choice, a fighter is able to wield any martial weapon with great skill and a shield is a great choice for defence.");
+                        }
+
                     }
+                    if (fiter == 2) {
+                        System.out.println("choose a martial weapon");
+                        System.out.println("1. Longstaff and dueling daggers");
+                        System.out.println("2. Ball & Chain and Scythe Cleaver");
+                        System.out.println("3. Billhook and Dueling Shield");
+                        System.out.println("6. Heavy Glaive and Spartian Spear");
+                        System.out.println("7. Katana and Medium Sword");
+                        int fite = scanner.nextInt();
+                        if (fite > 0) {
+                            System.out.println("That is a great choice two weapons will allow you to deal more damage than if you had one");
+                        }
 
-                }
-                if (fiter == 2) {
-                    System.out.println("choose a martial weapon");
-                    System.out.println("1. Longstaff and dueling daggers");
-                    System.out.println("2. Ball & Chain and Scythe Cleaver");
-                    System.out.println("3. Billhook and Dueling Shield");
-                    System.out.println("6. Heavy Glaive and Spartian Spear");
-                    System.out.println("7. Katana and Medium Sword");
-                    int fite = scanner.nextInt();
-                    if (fite > 0) {
-                        System.out.println("That is a great choice two weapons will allow you to deal more damage than one");
                     }
+                }
+                if (fiters == 2) {
+                    System.out.println("Leather armor and a bow and arrow these will provide you with more menuverability but less armor than chain mail");
+                    System.out.println("1. A martial weapon and a shield");
+                    System.out.println("2. Two martial weapons");
+                    int fitern = scanner.nextInt();
+                    if (fitern == 1) {
+                        System.out.println("choose a martial weapon");
+                        System.out.println("1. Longstaff");
+                        System.out.println("2. Ball & Chain");
+                        System.out.println("3. Billhook");
+                        System.out.println("4. Dueling Daggers");
+                        System.out.println("5. Dueling Shield");
+                        System.out.println("6. Heavy Glaive");
+                        System.out.println("7. Katana");
+                        System.out.println("8. Scythe Cleaver");
+                        System.out.println("9. Medium Sword");
+                        System.out.println("10. Spartan Spear");
+                        int fits = scanner.nextInt();
+                        if (fits > 0) {
+                            System.out.println("Good choice, a fighter is able to wield any martial weapon with great skill and a shield is a great choice for defence.");
+                        }
 
+                    }
+                    if (fitern == 2) {
+                        System.out.println("choose a martial weapon");
+                        System.out.println("1. Longstaff and dueling daggers");
+                        System.out.println("2. Ball & Chain and Scythe Cleaver");
+                        System.out.println("3. Billhook and Dueling Shield");
+                        System.out.println("6. Heavy Glaive and Spartian Spear");
+                        System.out.println("7. Katana and Medium Sword");
+                        int fitee = scanner.nextInt();
+                        if (fitee > 0) {
+                            System.out.println("That is a great choice two weapons will allow you to deal more damage than  if you had one");
+                        }
+
+                    }
                 }
 
+            }
+            if (Class == 5) {
+                System.out.println("You chose Ranger, You will often use your bow and arrow to defeat opponents");
+                System.out.println("Your hit die is a 1d10");
+                System.out.println("You are proficient with light and medium armors");
+                System.out.println("You are also proficient with simple and martial weapons");
+                System.out.println("now it is time to chose your weapon");
             }
 
             if (Class == 7) {
