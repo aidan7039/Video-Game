@@ -61,7 +61,12 @@ public class Choosing_your_Class {
                 System.out.println("2. Dagger");
                 System.out.println("3. Quarterstaff");
                 System.out.println("4. Sickle");
-                //finish making 10 simple weapons (there's a link to all of the simple weapons in Discord
+                System.out.println("5. Mace");
+                System.out.println("6. Spear");
+                System.out.println("7. Light Hammer");
+                System.out.println("8. Hand Axe");
+                System.out.println("9. Great Club");
+                System.out.println("10. Javelin");
             }
 
             System.out.println("Here take this explorer's pack and these four javelins, you'll need them on your adventure");
@@ -78,6 +83,47 @@ public class Choosing_your_Class {
             }
             if (clrceqp1 == 2) {
                 System.out.println("A warhammer is a great weapon for a cleric, it's tried and true and delivers devastating blows.");
+            }
+            System.out.println("Choose some basic armor");
+            System.out.println("1. scale mail");
+            System.out.println("2. leather armor");
+            System.out.println("3. chain mail");
+            int clrcarm = scanner.nextInt();
+
+            if (clrcarm == 1) {
+                System.out.println("Scale mail is a good armor to start out with it provides good defense and allows ease of movement as well.");
+            }
+            if (clrcarm == 2) {
+                System.out.println("Leather armor is light, easy to use, and effective against low level enemies, a solid pick for those in need of a little bit of extra defense.");
+            }
+            if (clrcarm == 3) {
+                System.out.println("Chain mail is tough and strong, it's highly effective against slashing attacks. It's also light and versatile making it a great choice for most situations.");
+            }
+
+            System.out.println("Would you like either a crossbow and 20 bolts or any simple weapon?");
+            System.out.println("1. Crossbow and 20 bolts");
+            System.out.println("2. Any Simple Weapon");
+            int clrccosw = scanner.nextInt();
+
+            if (clrccosw == 1) {
+                System.out.println("The crossbow is an effective and hard hitting weapon, it provides good damage from far away. A good choice for a quick, silent kill.");
+            }
+            if (clrccosw == 2) {
+                System.out.println("Choose any simple weapon");
+                System.out.println("1. Club");
+                System.out.println("2. Dagger");
+                System.out.println("3. Quarterstaff");
+                System.out.println("4. Sickle");
+                System.out.println("5. Mace");
+                System.out.println("6. Spear");
+                System.out.println("7. Light Hammer");
+                System.out.println("8. Hand Axe");
+                System.out.println("9. Great Club");
+                System.out.println("10. Javelin");
+                int clrceqp2 = scanner.nextInt();
+            }
+            if (clrccosw > 0) {
+                System.out.println("You made a good choice, this will surely help you on your adventure.");
             }
 
         }
@@ -271,7 +317,7 @@ public class Choosing_your_Class {
                         }
                     }
                     if (rangemw == 2) {
-                        System.out.println("You like duel weilding I see, now you must chose your weapons");
+                        System.out.println("You like duel wielding I see, now you must chose your weapons");
                         System.out.println("1. Club");
                         System.out.println("2. Dagger");
                         System.out.println("3. Quarterstaff");
