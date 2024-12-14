@@ -3,6 +3,8 @@ package Coding;
 import java.util.Scanner;
 public class Choosing_your_Class {
 
+
+
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
@@ -28,7 +30,7 @@ public class Choosing_your_Class {
             if (barbeqp == 1) {
                 System.out.println("A greataxe, eh? Some say it is the Barbarian's best friend.");
             }
-            if (barbeqp == 2){
+            if (barbeqp == 2) {
                 System.out.println("Choose any martial weapon");
                 System.out.println("1. Longstaff");
                 System.out.println("2. Ball & Chain");
@@ -40,7 +42,7 @@ public class Choosing_your_Class {
                 System.out.println("8. Scythe Cleaver");
                 System.out.println("9. Medium Sword");
                 System.out.println("10. Spartan Spear");
-            int barbmart = scanner.nextInt();
+                int barbmart = scanner.nextInt();
                 if (barbmart > 0) {
                     System.out.println("Good choice, a barbarian is able to wield almost any weapon with ease. You have chosen wisely.");
                 }
@@ -79,37 +81,288 @@ public class Choosing_your_Class {
             }
 
         }
-        if (Class == 4) {
-            System.out.println("You chose fighter, you are a specialist in all forms of melee combat.");
-            System.out.println("Your hit die is 1d10, you are proficient with all armor and shields as well as all simple and martial weapons.");
-            System.out.println("Choose some starting equipment");
-            System.out.println("1. A martial weapon and a shield");
-            System.out.println("2. Two martial weapons");
-            int fiter = scanner.nextInt();
-            if (fiter == 1) {
-                System.out.println("choose a martial weapon");
-                System.out.println("1. Longstaff");
-                System.out.println("2. Ball & Chain");
-                System.out.println("3. Billhook");
-                System.out.println("4. Dueling Daggers");
-                System.out.println("5. Dueling Shield");
-                System.out.println("6. Heavy Glaive");
-                System.out.println("7. Katana");
-                System.out.println("8. Scythe Cleaver");
-                System.out.println("9. Medium Sword");
-                System.out.println("10. Spartan Spear");
-                int fit = scanner.nextInt();
-                if (fit > 0) {
-                    System.out.println("Good choice, a fighter is able to wield any martial weapon with great skill and a shield is a great choice for defence.");
+        if (Class == 3) {
+            System.out.println("You chose Druid, you are a master of nature and a friend of beasts");
+            System.out.println("You are proficient in light and medium armors as well as shields");
+            System.out.println("You are also proficient in a number of fine weapons.");
+            System.out.println("These include clubs, daggers, darts, javelins, maces, quarterstaffs, scimitars, sickles, slings, and spears.");
+            System.out.println("chose your starting equipment");
+            System.out.println("1. A wooden shield");
+            System.out.println("2. a simple melee weapon");
+            int drud = scanner.nextInt();
+            if (drud == 1) {
+                System.out.println("I believe this shield will prove a great asset to you");
+                System.out.println("Now you must chose a weapon");
+                System.out.println("1. scimitar");
+                System.out.println("2. a simple melee weapon");
+                int drudw = scanner.nextInt();
+                if (drudw == 1) {
+                    System.out.println("A scimitar is a nice weapon to help you on your journey");
+                }
+                if (drudw == 2) {
+                    System.out.println("now chose a simple melee weapon");
+                    System.out.println("1. Club");
+                    System.out.println("2. Dagger");
+                    System.out.println("3. Quarterstaff");
+                    System.out.println("4. Sickle");
+                    System.out.println("5. Mace");
+                    System.out.println("6. Spear");
+                    System.out.println("7. Light Hammer");
+                    System.out.println("8. Hand Axe");
+                    System.out.println("9. Great Club");
+                    System.out.println("10. Javelin");
+                    int drudwe = scanner.nextInt();
+                    if (drudwe > 0) {
+                        System.out.println("That was an excelent choice a weapon to defend oneself is always needed.");
+                    }
+                }
+            }
+            if (drud == 2) {
+                System.out.println("now you must chose a simple melee weapon");
+                System.out.println("1. Club");
+                System.out.println("2. Dagger");
+                System.out.println("3. Quarterstaff");
+                System.out.println("4. Sickle");
+                System.out.println("5. Mace");
+                System.out.println("6. Spear");
+                System.out.println("7. Light Hammer");
+                System.out.println("8. Hand Axe");
+                System.out.println("9. Great Club");
+                System.out.println("10. Javelin");
+                int druder = scanner.nextInt();
+                if (druder > 0) {
+                    System.out.println("you can also use this weapon to defend yourself or attack enemies");
+                    System.out.println("Now you must chose a weapon");
+                    System.out.println("1. scimitar");
+                    System.out.println("2. a simple melee weapon");
+                    int druders = scanner.nextInt();
+                    if (druders == 1) {
+                        System.out.println("A scimitar is a nice weapon to help you on your journey");
+                    }
+                    if (druders == 2) {
+                        System.out.println("now chose a simple melee weapon");
+                        System.out.println("1. Club");
+                        System.out.println("2. Dagger");
+                        System.out.println("3. Quarterstaff");
+                        System.out.println("4. Sickle");
+                        System.out.println("5. Mace");
+                        System.out.println("6. Spear");
+                        System.out.println("7. Light Hammer");
+                        System.out.println("8. Hand Axe");
+                        System.out.println("9. Great Club");
+                        System.out.println("10. Javelin");
+                        int drudwes = scanner.nextInt();
+                        if (drudwes > 0) {
+                            System.out.println("That was an excelent choice a weapon to defend oneself is always needed.");
+                        }
+                    }
+                }
+            }
+        }
+            if (Class == 4) {
+                System.out.println("You chose fighter, you are a specialist in all forms of melee combat.");
+                System.out.println("Your hit die is 1d10, you are proficient with all armor and shields as well as all simple and martial weapons.");
+                System.out.println("Choose some starting equipment");
+                System.out.println("1. chain mail");
+                System.out.println("2. Leather armor, a longbow, and 20 arrows");
+                int fiters = scanner.nextInt();
+                if (fiters == 1) {
+                    System.out.println("Chain mail will provide you with great protection but a disadvantage in stealth");
+                    System.out.println("1. A martial weapon and a shield");
+                    System.out.println("2. Two martial weapons");
+                    int fiter = scanner.nextInt();
+                    if (fiter == 1) {
+                        System.out.println("choose a martial weapon");
+                        System.out.println("1. Longstaff");
+                        System.out.println("2. Ball & Chain");
+                        System.out.println("3. Billhook");
+                        System.out.println("4. Dueling Daggers");
+                        System.out.println("5. Dueling Shield");
+                        System.out.println("6. Heavy Glaive");
+                        System.out.println("7. Katana");
+                        System.out.println("8. Scythe Cleaver");
+                        System.out.println("9. Medium Sword");
+                        System.out.println("10. Spartan Spear");
+                        int fit = scanner.nextInt();
+                        if (fit > 0) {
+                            System.out.println("Good choice, a fighter is able to wield any martial weapon with great skill and a shield is a great choice for defence.");
+                        }
+
+                    }
+                    if (fiter == 2) {
+                        System.out.println("choose a martial weapon");
+                        System.out.println("1. Longstaff and dueling daggers");
+                        System.out.println("2. Ball & Chain and Scythe Cleaver");
+                        System.out.println("3. Billhook and Dueling Shield");
+                        System.out.println("6. Heavy Glaive and Spartian Spear");
+                        System.out.println("7. Katana and Medium Sword");
+                        int fite = scanner.nextInt();
+                        if (fite > 0) {
+                            System.out.println("That is a great choice two weapons will allow you to deal more damage than if you had one");
+                        }
+
+                    }
+                }
+                if (fiters == 2) {
+                    System.out.println("Leather armor and a bow and arrow these will provide you with more menuverability but less armor than chain mail");
+                    System.out.println("1. A martial weapon and a shield");
+                    System.out.println("2. Two martial weapons");
+                    int fitern = scanner.nextInt();
+                    if (fitern == 1) {
+                        System.out.println("choose a martial weapon");
+                        System.out.println("1. Longstaff");
+                        System.out.println("2. Ball & Chain");
+                        System.out.println("3. Billhook");
+                        System.out.println("4. Dueling Daggers");
+                        System.out.println("5. Dueling Shield");
+                        System.out.println("6. Heavy Glaive");
+                        System.out.println("7. Katana");
+                        System.out.println("8. Scythe Cleaver");
+                        System.out.println("9. Medium Sword");
+                        System.out.println("10. Spartan Spear");
+                        int fits = scanner.nextInt();
+                        if (fits > 0) {
+                            System.out.println("Good choice, a fighter is able to wield any martial weapon with great skill and a shield is a great choice for defence.");
+                        }
+
+                    }
+                    if (fitern == 2) {
+                        System.out.println("choose a martial weapon");
+                        System.out.println("1. Longstaff and dueling daggers");
+                        System.out.println("2. Ball & Chain and Scythe Cleaver");
+                        System.out.println("3. Billhook and Dueling Shield");
+                        System.out.println("6. Heavy Glaive and Spartian Spear");
+                        System.out.println("7. Katana and Medium Sword");
+                        int fitee = scanner.nextInt();
+                        if (fitee > 0) {
+                            System.out.println("That is a great choice two weapons will allow you to deal more damage than  if you had one");
+                        }
+
+                    }
                 }
 
             }
+            if (Class == 5) {
+                System.out.println("You chose Ranger, You will often use your bow and arrow to defeat opponents");
+                System.out.println("Your hit die is a 1d10");
+                System.out.println("You are proficient with light and medium armors");
+                System.out.println("You are also proficient with simple and martial weapons");
+                System.out.println("now it is time to chose your starting equipment");
+                System.out.println("1. Scale Mail");
+                System.out.println("2. Leather Armor");
+                int range = scanner.nextInt();
+                if (range == 1) {
+                    System.out.println("That Scale Mail will provide excelent protection but will provide you with a disadvantage to stealth");
+                    System.out.println("Now you must chose your weapon");
+                    System.out.println("1. two shortswords");
+                    System.out.println("2. two simple melee weapons");
+                    int rangemw = scanner.nextInt();
+                    if (rangemw == 1) {
+                        System.out.println("You like duel weilding I see, good luck");
+                        System.out.println("Now you must chose a pack");
+                        System.out.println("1. Dungeoneer's Pack");
+                        System.out.println("2. Explorer's Pack");
+                        int rangep = scanner.nextInt();
+                        if (rangep == 1) {
+                            System.out.println("This contains all of the equipment that you need to traverse dungeons");
+                        }
+                        if (rangep == 2) {
+                            System.out.println("This contains all of the equipment that you would need to explore the world");
+                        }
+                    }
+                    if (rangemw == 2) {
+                        System.out.println("You like duel weilding I see, now you must chose your weapons");
+                        System.out.println("1. Club");
+                        System.out.println("2. Dagger");
+                        System.out.println("3. Quarterstaff");
+                        System.out.println("4. Sickle");
+                        System.out.println("5. Mace");
+                        System.out.println("6. Spear");
+                        System.out.println("7. Light Hammer");
+                        System.out.println("8. Hand Axe");
+                        System.out.println("9. Great Club");
+                        System.out.println("10. Javelin");
+                        int rangeww = scanner.nextInt();
+                        if (rangeww > 0) {
+                            System.out.println("that is a great choice two of those will definatly help you in the future");
+                            System.out.println("Now you must chose a pack");
+                            System.out.println("1. Dungeoneer's Pack");
+                            System.out.println("2. Explorer's Pack");
+                            int rangepp = scanner.nextInt();
+                            if (rangepp == 1) {
+                                System.out.println("This contains all of the equipment that you need to traverse dungeons");
+                            }
+                            if (rangepp == 2) {
+                                System.out.println("This contains all of the equipment that you would need to explore the world");
+                            }
+                        }
+                    }
+                }
+                if (range == 2) {
+                    System.out.println("Leather Armor will help you through your journey through this world");
+                    System.out.println("Now you must chose your weapon");
+                    System.out.println("1. two shortswords");
+                    System.out.println("2. two simple melee weapons");
+                    int rangemww = scanner.nextInt();
+                    if (rangemww == 1) {
+                        System.out.println("You like duel weilding I see, good luck");
+                        System.out.println("Now you must chose a pack");
+                        System.out.println("1. Dungeoneer's Pack");
+                        System.out.println("2. Explorer's Pack");
+                        int rangepw = scanner.nextInt();
+                        if (rangepw == 1) {
+                            System.out.println("This contains all of the equipment that you need to traverse dungeons");
+                        }
+                        if (rangepw == 2) {
+                            System.out.println("This contains all of the equipment that you would need to explore the world");
+                        }
+                    }
+                    if (rangemww == 2) {
+                        System.out.println("You like duel weilding I see, now you must chose your weapons");
+                        System.out.println("1. Club");
+                        System.out.println("2. Dagger");
+                        System.out.println("3. Quarterstaff");
+                        System.out.println("4. Sickle");
+                        System.out.println("5. Mace");
+                        System.out.println("6. Spear");
+                        System.out.println("7. Light Hammer");
+                        System.out.println("8. Hand Axe");
+                        System.out.println("9. Great Club");
+                        System.out.println("10. Javelin");
+                        int rangewww = scanner.nextInt();
+                        if (rangewww > 0) {
+                            System.out.println("that is a great choice two of those will definatly help you in the future");
+                            System.out.println("Now you must chose a pack");
+                            System.out.println("1. Dungeoneer's Pack");
+                            System.out.println("2. Explorer's Pack");
+                            int rangeppp = scanner.nextInt();
+                            if (rangeppp == 1) {
+                                System.out.println("This contains all of the equipment that you need to traverse dungeons");
+                            }
+                            if (rangeppp == 2) {
+                                System.out.println("This contains all of the equipment that you would need to explore the world");
+                            }
+                        }
+                    }
+                }
+            }
 
+            if (Class == 7) {
+                System.out.println("You chose Wizard, You use intelligence and wisdom instead of strength in battle");
+                System.out.println("Your hit die is one 1d6, you are proficient with daggers, darts, slings, quarter staffs, and light crossbows ");
+                System.out.println("As a Wizard sadly you can not wear any armor whatsoever so be careful");
+                System.out.println("Choose some starting equipment");
+                System.out.println("1. Quarter staff, component pouch, and a spellbook");
+                System.out.println("2. Dagger, arcane focus, and a spellbook");
+                int wizequip = scanner.nextInt();
+
+                if (wizequip > 0) {
+                    System.out.println("Interesting choice I'm excited to see how your adventure goes");
+                }
+            }
+
+
+            scanner.close();
 
         }
-
-
-    scanner.close();
-
     }
-}
