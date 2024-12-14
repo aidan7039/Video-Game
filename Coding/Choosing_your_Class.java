@@ -247,7 +247,104 @@ public class Choosing_your_Class {
                 System.out.println("Your hit die is a 1d10");
                 System.out.println("You are proficient with light and medium armors");
                 System.out.println("You are also proficient with simple and martial weapons");
-                System.out.println("now it is time to chose your weapon");
+                System.out.println("now it is time to chose your starting equipment");
+                System.out.println("1. Scale Mail");
+                System.out.println("2. Leather Armor");
+                int range = scanner.nextInt();
+                if (range == 1) {
+                    System.out.println("That Scale Mail will provide excelent protection but will provide you with a disadvantage to stealth");
+                    System.out.println("Now you must chose your weapon");
+                    System.out.println("1. two shortswords");
+                    System.out.println("2. two simple melee weapons");
+                    int rangemw = scanner.nextInt();
+                    if (rangemw == 1) {
+                        System.out.println("You like duel weilding I see, good luck");
+                        System.out.println("Now you must chose a pack");
+                        System.out.println("1. Dungeoneer's Pack");
+                        System.out.println("2. Explorer's Pack");
+                        int rangep = scanner.nextInt();
+                        if (rangep == 1) {
+                            System.out.println("This contains all of the equipment that you need to traverse dungeons");
+                        }
+                        if (rangep == 2) {
+                            System.out.println("This contains all of the equipment that you would need to explore the world");
+                        }
+                    }
+                    if (rangemw == 2) {
+                        System.out.println("You like duel weilding I see, now you must chose your weapons");
+                        System.out.println("1. Club");
+                        System.out.println("2. Dagger");
+                        System.out.println("3. Quarterstaff");
+                        System.out.println("4. Sickle");
+                        System.out.println("5. Mace");
+                        System.out.println("6. Spear");
+                        System.out.println("7. Light Hammer");
+                        System.out.println("8. Hand Axe");
+                        System.out.println("9. Great Club");
+                        System.out.println("10. Javelin");
+                        int rangeww = scanner.nextInt();
+                        if (rangeww > 0) {
+                            System.out.println("that is a great choice two of those will definatly help you in the future");
+                            System.out.println("Now you must chose a pack");
+                            System.out.println("1. Dungeoneer's Pack");
+                            System.out.println("2. Explorer's Pack");
+                            int rangepp = scanner.nextInt();
+                            if (rangepp == 1) {
+                                System.out.println("This contains all of the equipment that you need to traverse dungeons");
+                            }
+                            if (rangepp == 2) {
+                                System.out.println("This contains all of the equipment that you would need to explore the world");
+                            }
+                        }
+                    }
+                }
+                if (range == 2) {
+                    System.out.println("Leather Armor will help you through your journey through this world");
+                    System.out.println("Now you must chose your weapon");
+                    System.out.println("1. two shortswords");
+                    System.out.println("2. two simple melee weapons");
+                    int rangemww = scanner.nextInt();
+                    if (rangemww == 1) {
+                        System.out.println("You like duel weilding I see, good luck");
+                        System.out.println("Now you must chose a pack");
+                        System.out.println("1. Dungeoneer's Pack");
+                        System.out.println("2. Explorer's Pack");
+                        int rangepw = scanner.nextInt();
+                        if (rangepw == 1) {
+                            System.out.println("This contains all of the equipment that you need to traverse dungeons");
+                        }
+                        if (rangepw == 2) {
+                            System.out.println("This contains all of the equipment that you would need to explore the world");
+                        }
+                    }
+                    if (rangemww == 2) {
+                        System.out.println("You like duel weilding I see, now you must chose your weapons");
+                        System.out.println("1. Club");
+                        System.out.println("2. Dagger");
+                        System.out.println("3. Quarterstaff");
+                        System.out.println("4. Sickle");
+                        System.out.println("5. Mace");
+                        System.out.println("6. Spear");
+                        System.out.println("7. Light Hammer");
+                        System.out.println("8. Hand Axe");
+                        System.out.println("9. Great Club");
+                        System.out.println("10. Javelin");
+                        int rangewww = scanner.nextInt();
+                        if (rangewww > 0) {
+                            System.out.println("that is a great choice two of those will definatly help you in the future");
+                            System.out.println("Now you must chose a pack");
+                            System.out.println("1. Dungeoneer's Pack");
+                            System.out.println("2. Explorer's Pack");
+                            int rangeppp = scanner.nextInt();
+                            if (rangeppp == 1) {
+                                System.out.println("This contains all of the equipment that you need to traverse dungeons");
+                            }
+                            if (rangeppp == 2) {
+                                System.out.println("This contains all of the equipment that you would need to explore the world");
+                            }
+                        }
+                    }
+                }
             }
 
             if (Class == 7) {
