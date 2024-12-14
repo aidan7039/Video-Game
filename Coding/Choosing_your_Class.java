@@ -69,7 +69,7 @@ public class Choosing_your_Class {
                 System.out.println("10. Javelin");
             }
 
-            System.out.println("Here take this explorer's pack and these four javelins, you'll need them on your adventure");
+            System.out.println("Here take this explorer's pack and these four javelins, you'll need them on your adventure.");
         }
         if (Class == 2) {
             System.out.println("You chose cleric, you use the power of the gods to carry out their will.");
