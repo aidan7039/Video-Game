@@ -407,6 +407,105 @@ public class Choosing_your_Class {
             }
             if (Class == 6) {
                 System.out.println("You chose Rogue, you specalize in stealth");
+                System.out.println("Your Hit die is a 1d8, you are proficient in simple weapons, Hand Crossbows, Longswords, Rapiers, and Shortswords");
+                System.out.println("now you need to chose your starting equipment");
+                System.out.println("1. Rapier");
+                System.out.println("2. Shortsword");
+                int rog = scanner.nextInt();
+                if (rog == 1) {
+                    System.out.println("This will help you when you try stabing someone in the head");
+                    System.out.println("Now you need to chose your second weapon");
+                    System.out.println("1. Shortbow and 20 arrows");
+                    System.out.println("2. Shortsword");
+                    int roge = scanner.nextInt();
+                    if (roge == 1) {
+                        System.out.println("this will help you all ack enemies from a distance");
+                        System.out.println("Now you need to choose your pack");
+                        System.out.println("1. Burglar's pack");
+                        System.out.println("2. Dungeoneer's pack");
+                        System.out.println("3. Explorer's pack");
+                        int roger = scanner.nextInt();
+                        if (roger == 1) {
+                            System.out.println("This will help you rob people");
+                            System.out.println("you will also get leather armor, two daggers, and thieves' tools");
+                        }
+                        if (roger == 2) {
+                            System.out.println("May this help you on whatever dungeon explorations you go on");
+                            System.out.println("you will also get leather armor, two daggers, and thieves' tools");
+                        }
+                        if (roger == 3) {
+                            System.out.println("May this help you on all of you future explorations");
+                            System.out.println("You will also get leather armor, two daggers, and thieves' tools");
+                        }
+                    }
+                    if (roge == 2) {
+                        System.out.println("this will help you defend yourself and you can even duel weild");
+                        System.out.println("Now you need to choose your pack");
+                        System.out.println("1. Burglar's pack");
+                        System.out.println("2. Dungeoneer's pack");
+                        System.out.println("3. Explorer's pack");
+                        int rogerr = scanner.nextInt();
+                        if (rogerr == 1) {
+                            System.out.println("This will help you rob people");
+                            System.out.println("you will also get leather armor, two daggers, and thieves' tools");
+                        }
+                        if (rogerr == 2) {
+                            System.out.println("May this help you on whatever dungeon explorations you go on");
+                            System.out.println("you will also get leather armor, two daggers, and thieves' tools");
+                        }
+                        if (rogerr == 3) {
+                            System.out.println("May this help you on all of you future explorations");
+                            System.out.println("You will also get leather armor, two daggers, and thieves' tools");
+                        }
+                    }
+                }
+                if (rog == 2) {
+                    System.out.println("May this Shortsword be a faithfull weapon on your journey");
+                    System.out.println("Now you need to chose your second weapon");
+                    System.out.println("1. Shortbow and 20 arrows");
+                    System.out.println("2. Shortsword");
+                    int rogeo = scanner.nextInt();
+                    if (rogeo == 1) {
+                        System.out.println("this will help you all ack enemies from a distance");
+                        System.out.println("Now you need to choose your pack");
+                        System.out.println("1. Burglar's pack");
+                        System.out.println("2. Dungeoneer's pack");
+                        System.out.println("3. Explorer's pack");
+                        int rogero = scanner.nextInt();
+                        if (rogero == 1) {
+                            System.out.println("This will help you rob people");
+                            System.out.println("you will also get leather armor, two daggers, and thieves' tools");
+                        }
+                        if (rogero == 2) {
+                            System.out.println("May this help you on whatever dungeon explorations you go on");
+                            System.out.println("you will also get leather armor, two daggers, and thieves' tools");
+                        }
+                        if (rogero == 3) {
+                            System.out.println("May this help you on all of you future explorations");
+                            System.out.println("You will also get leather armor, two daggers, and thieves' tools");
+                        }
+                    }
+                    if (rogeo == 2) {
+                        System.out.println("this will help you defend yourself and you can even duel weild");
+                        System.out.println("Now you need to choose your pack");
+                        System.out.println("1. Burglar's pack");
+                        System.out.println("2. Dungeoneer's pack");
+                        System.out.println("3. Explorer's pack");
+                        int rogerro = scanner.nextInt();
+                        if (rogerro == 1) {
+                            System.out.println("This will help you rob people");
+                            System.out.println("you will also get leather armor, two daggers, and thieves' tools");
+                        }
+                        if (rogerro == 2) {
+                            System.out.println("May this help you on whatever dungeon explorations you go on");
+                            System.out.println("you will also get leather armor, two daggers, and thieves' tools");
+                        }
+                        if (rogerro == 3) {
+                            System.out.println("May this help you on all of you future explorations");
+                            System.out.println("You will also get leather armor, two daggers, and thieves' tools");
+                        }
+                    }
+                }
             }
 
             if (Class == 7) {
