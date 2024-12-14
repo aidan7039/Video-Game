@@ -23,5 +23,7 @@ public class RandomNumberGenerator {
         System.out.println("Random Integer between 0 and 10: " + randomNumberBetween0And10);
         System.out.println("Random Integer between 5 and 15: " + randomNumberBetween5And15);
         System.out.println("Random Double: " + randomDouble);
+
+        System.out.println();
     }
 }
