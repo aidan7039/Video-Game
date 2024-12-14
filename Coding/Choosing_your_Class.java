@@ -125,7 +125,19 @@ public class Choosing_your_Class {
                     System.out.println("You made a good choice, this will surely help you on your adventure.");
                 }
             }
+            System.out.println("It's important that you take some basic supplies on your journey.");
+            System.out.println("Choose either a priest's pack or an explorer's pack");
+            System.out.println("1. Priest's pack");
+            System.out.println("Explorer's pack");
+            int clrcpk = scanner.nextInt();
 
+            if (clrcpk == 1) {
+                System.out.println("A priest's pack is full of everything you need to communicate, question, and serve the gods, it houses all of the quintessential cleric items.");
+            }
+            if (clrcpk == 2) {
+                System.out.println("An explorer's pack is perfect for travelers, it has all of the basics needed to survive and thrive away from home.");
+            }
+            System.out.println("Lastly here's a shield and a holy symbol to complete your cleric equipment.");
 
         }
         if (Class == 3) {
