@@ -302,7 +302,7 @@ public class Choosing_your_Class {
 
             }
             if (Class == 5) {
-                System.out.println("You chose Ranger, You will often use your bow and arrow to defeat opponents");
+                System.out.println("You chose Ranger, you will often use your bow and arrow to defeat opponents");
                 System.out.println("Your hit die is a 1d10");
                 System.out.println("You are proficient with light and medium armors");
                 System.out.println("You are also proficient with simple and martial weapons");
@@ -312,12 +312,12 @@ public class Choosing_your_Class {
                 int range = scanner.nextInt();
                 if (range == 1) {
                     System.out.println("That Scale Mail will provide excelent protection but will provide you with a disadvantage to stealth");
-                    System.out.println("Now you must chose your weapon");
+                    System.out.println("Now you must choose your weapon");
                     System.out.println("1. two shortswords");
                     System.out.println("2. two simple melee weapons");
                     int rangemw = scanner.nextInt();
                     if (rangemw == 1) {
-                        System.out.println("You like duel weilding I see, good luck");
+                        System.out.println("You like duel wielding I see, good luck");
                         System.out.println("Now you must chose a pack");
                         System.out.println("1. Dungeoneer's Pack");
                         System.out.println("2. Explorer's Pack");
@@ -343,7 +343,7 @@ public class Choosing_your_Class {
                         System.out.println("10. Javelin");
                         int rangeww = scanner.nextInt();
                         if (rangeww > 0) {
-                            System.out.println("that is a great choice two of those will definatly help you in the future");
+                            System.out.println("that is a great choice two of those will definitely help you in the future");
                             System.out.println("Now you must chose a pack");
                             System.out.println("1. Dungeoneer's Pack");
                             System.out.println("2. Explorer's Pack");
