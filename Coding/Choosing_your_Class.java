@@ -6,7 +6,7 @@ public class Choosing_your_Class {
 
 
     public static void Run1() {
-
+    //public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Please choose your class");
