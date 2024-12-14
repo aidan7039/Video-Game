@@ -69,7 +69,7 @@ public class Choosing_your_Class {
                 System.out.println("10. Javelin");
             }
 
-            System.out.println("Here take this explorer's pack and these four javelins, you'll need them on your adventure");
+            System.out.println("Here take this explorer's pack and these four javelins, you'll need them on your adventure.");
         }
         if (Class == 2) {
             System.out.println("You chose cleric, you use the power of the gods to carry out their will.");
@@ -125,7 +125,19 @@ public class Choosing_your_Class {
                     System.out.println("You made a good choice, this will surely help you on your adventure.");
                 }
             }
+            System.out.println("It's important that you take some basic supplies on your journey.");
+            System.out.println("Choose either a priest's pack or an explorer's pack");
+            System.out.println("1. Priest's pack");
+            System.out.println("2. Explorer's pack");
+            int clrcpk = scanner.nextInt();
 
+            if (clrcpk == 1) {
+                System.out.println("A priest's pack is full of everything you need to communicate, question, and serve the gods, it houses all of the quintessential cleric items.");
+            }
+            if (clrcpk == 2) {
+                System.out.println("An explorer's pack is perfect for travelers, it has all of the basics needed to survive and thrive away from home.");
+            }
+            System.out.println("Lastly here's a shield and a holy symbol to complete your cleric equipment.");
 
         }
         if (Class == 3) {
@@ -290,7 +302,7 @@ public class Choosing_your_Class {
 
             }
             if (Class == 5) {
-                System.out.println("You chose Ranger, You will often use your bow and arrow to defeat opponents");
+                System.out.println("You chose Ranger, you will often use your bow and arrow to defeat opponents");
                 System.out.println("Your hit die is a 1d10");
                 System.out.println("You are proficient with light and medium armors");
                 System.out.println("You are also proficient with simple and martial weapons");
@@ -300,12 +312,12 @@ public class Choosing_your_Class {
                 int range = scanner.nextInt();
                 if (range == 1) {
                     System.out.println("That Scale Mail will provide excelent protection but will provide you with a disadvantage to stealth");
-                    System.out.println("Now you must chose your weapon");
+                    System.out.println("Now you must choose your weapon");
                     System.out.println("1. two shortswords");
                     System.out.println("2. two simple melee weapons");
                     int rangemw = scanner.nextInt();
                     if (rangemw == 1) {
-                        System.out.println("You like duel weilding I see, good luck");
+                        System.out.println("You like duel wielding I see, good luck");
                         System.out.println("Now you must chose a pack");
                         System.out.println("1. Dungeoneer's Pack");
                         System.out.println("2. Explorer's Pack");
@@ -331,7 +343,7 @@ public class Choosing_your_Class {
                         System.out.println("10. Javelin");
                         int rangeww = scanner.nextInt();
                         if (rangeww > 0) {
-                            System.out.println("that is a great choice two of those will definatly help you in the future");
+                            System.out.println("that is a great choice two of those will definitely help you in the future");
                             System.out.println("Now you must chose a pack");
                             System.out.println("1. Dungeoneer's Pack");
                             System.out.println("2. Explorer's Pack");
