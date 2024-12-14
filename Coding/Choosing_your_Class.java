@@ -121,10 +121,11 @@ public class Choosing_your_Class {
                 System.out.println("9. Great Club");
                 System.out.println("10. Javelin");
                 int clrceqp2 = scanner.nextInt();
+                if (clrceqp2> 0) {
+                    System.out.println("You made a good choice, this will surely help you on your adventure.");
+                }
             }
-            if (clrccosw > 0) {
-                System.out.println("You made a good choice, this will surely help you on your adventure.");
-            }
+
 
         }
         if (Class == 3) {
