@@ -263,7 +263,9 @@ public class Choosing_your_Class {
                     }
                 }
                 if (fiters == 2) {
-                    System.out.println("Leather armor and a bow and arrow these will provide you with more menuverability but less armor than chain mail");
+                    System.out.println("Leather armor and a bow and arrow these will provide you with more maneuverability but less armor than chain mail");
+                    //Mark I added the line directly below this comment because it just out of the blue provided you with choices with no prompt I don't think you intended for it to be that way so I added a prompt
+                    System.out.println("Now choose either a martial weapons and a shield or two martial weapons");
                     System.out.println("1. A martial weapon and a shield");
                     System.out.println("2. Two martial weapons");
                     int fitern = scanner.nextInt();
