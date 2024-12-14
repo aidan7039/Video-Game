@@ -104,6 +104,19 @@ public class Choosing_your_Class {
                 }
 
             }
+            if (fiter == 2) {
+                System.out.println("choose a martial weapon");
+                System.out.println("1. Longstaff and dueling daggers");
+                System.out.println("2. Ball & Chain and Scythe Cleaver");
+                System.out.println("3. Billhook and Dueling Shield");
+                System.out.println("6. Heavy Glaive and Spartian Spear");
+                System.out.println("7. Katana and Medium Sword");
+                int fite = scanner.nextInt();
+                if (fite > 0) {
+                    System.out.println("That is a great choice it will allow you to deal more damage");
+                }
+
+            }
 
 
         }
