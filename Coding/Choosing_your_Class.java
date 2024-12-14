@@ -119,7 +119,7 @@ public class Choosing_your_Class {
             }
         if (Class == 7) {
             System.out.println("You chose Wizard, You use intelligence and wisdom instead of strength in battle");
-            System.out.println("");
+            System.out.println("Your hit die is one 1d6");
         }
 
         }
