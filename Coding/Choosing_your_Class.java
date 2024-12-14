@@ -128,7 +128,7 @@ public class Choosing_your_Class {
             System.out.println("It's important that you take some basic supplies on your journey.");
             System.out.println("Choose either a priest's pack or an explorer's pack");
             System.out.println("1. Priest's pack");
-            System.out.println("Explorer's pack");
+            System.out.println("2. Explorer's pack");
             int clrcpk = scanner.nextInt();
 
             if (clrcpk == 1) {
