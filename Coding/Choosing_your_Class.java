@@ -117,13 +117,17 @@ public class Choosing_your_Class {
                 }
 
             }
+
+        }
+
         if (Class == 7) {
             System.out.println("You chose Wizard, You use intelligence and wisdom instead of strength in battle");
-            System.out.println("Your hit die is one 1d6");
+            System.out.println("Your hit die is one 1d6, you are proficient with daggers, darts, slings, quarter staffs, and light crossbows ");
+            System.out.println("As a Wizard sadly you can not wear any armor whatsoever so be careful");
+            System.out.println("Choose some starting equipment");
+            System.out.println("1. ");
+            System.out.println("2. ");
         }
-
-        }
-
 
     scanner.close();
 
