@@ -346,6 +346,9 @@ public class Choosing_your_Class {
                     }
                 }
             }
+            if (Class == 6) {
+                System.out.println("You chose Rogue, you specalize in stealth");
+            }
 
             if (Class == 7) {
                 System.out.println("You chose Wizard, You use intelligence and wisdom instead of strength in battle");
