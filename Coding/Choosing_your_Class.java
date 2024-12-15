@@ -1,6 +1,9 @@
 package Coding;
 
 import java.util.Scanner;
+
+import Coding.keybinds.Keybinds_For_Race_Choice;
+
 public class Choosing_your_Class {
     //public static void main(String[] args) {
 
@@ -8,7 +11,7 @@ public class Choosing_your_Class {
     public static void Run1() {
     //public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
+        Choosing_your_Race.Section = 1;
         System.out.println("Please choose your class");
         System.out.println("1. Barbarian");
         System.out.println("2. Cleric");
@@ -17,10 +20,11 @@ public class Choosing_your_Class {
         System.out.println("5. Ranger");
         System.out.println("6. Rogue");
         System.out.println("7. Wizard");
+        new Keybinds_For_Race_Choice();
         int Class = scanner.nextInt();
 
         if (Class == 1) {
-            //the barbarian will get +2 Str and +1 Con
+
             System.out.println("You chose Barbarian, you fight with rage and brute force to defeat your enemies.");
             System.out.println("Your hit die is 1d12, you are proficient with light armor, medium armor, shields, simple weapons, and martial weapons");
             System.out.println("Choose some starting equipment");

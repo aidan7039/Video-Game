@@ -18,5 +18,7 @@ public class Dice {
             int d6 = random.nextInt(6) + 1;
 
             int d4 = random.nextInt(4) + 1;
+
+            System.out.println(d4);
         }
     }

@@ -9,7 +9,9 @@ public class MainController {
             case "ChooseRace":
                 Choosing_your_Race.Run2();
                 break;
-                default:
+           case "Keybinds":
+
+            default:
                     System.out.println("Unknown action");
                     break;
                 }

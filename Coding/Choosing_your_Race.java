@@ -1,10 +1,16 @@
 package Coding;
 
 import java.util.Scanner;
+
+import Coding.keybinds.Keybinds;
+import Coding.keybinds.Keybinds_For_Race_Choice;
+
 public class Choosing_your_Race {
     //public static void main(String[] args) {
+    public static int Section;
 
     public static void Run2() {
+        Section = 3;
         Scanner hello = new Scanner(System.in);
         System.out.println("Please choose your race");
         System.out.println("1. Human");
@@ -27,6 +33,6 @@ public class Choosing_your_Race {
         }if (species == 5) {
             System.out.println("You chose Dragonborn, your stats are 12 Str, 10 Dex, 10 Con, 10 Wis, 10 int, 11 Cha");
         }
-    }
 
+    }
 }
