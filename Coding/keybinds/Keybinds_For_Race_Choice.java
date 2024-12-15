@@ -9,21 +9,24 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.KeyStroke;
+import javax.swing.SwingConstants;
 
 import Coding.Choosing_your_Class;
 import Coding.Choosing_your_Race;
 
 public class Keybinds_For_Race_Choice extends JFrame {
-
+private JLabel label;
     public Keybinds_For_Race_Choice() {
             // Set up the JFrame
             setTitle("Key Bindings Example");
-            setSize(0, 0);
+            setSize(400, 300);
             setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
 
             // Panel to hold key bindings
             JPanel panel = new JPanel();
             getContentPane().add(panel);
+            panel.add(new JLabel(""));
 
             // Bind 'A' key to an action
             panel.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW)
@@ -37,6 +40,7 @@ public class Keybinds_For_Race_Choice extends JFrame {
                             System.out.println("Choose some starting equipment");
                             System.out.println("1. A greataxe");
                             System.out.println("2. Any martial weapon");
+
                         }
                         if (Choosing_your_Race.Section == 3) {
                             System.out.println("");
