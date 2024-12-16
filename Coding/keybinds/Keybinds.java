@@ -4,13 +4,13 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.KeyEvent;
 
-public class Keybinds extends JFrame {
+public class Keybinds extends Thingy {
 
     public Keybinds() {
             // Set up the JFrame
             setTitle("Key Bindings Example");
             setSize(0, 0);
-            setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+            setDefaultCloseOperation(Thingy.EXIT_ON_CLOSE);
 
             // Panel to hold key bindings
             JPanel panel = new JPanel();

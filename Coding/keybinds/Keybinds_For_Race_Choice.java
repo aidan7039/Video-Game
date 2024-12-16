@@ -1,5 +1,8 @@
 package Coding.keybinds;
 
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.KeyEvent;
 
@@ -11,22 +14,30 @@ import javax.swing.JPanel;
 import javax.swing.KeyStroke;
 import javax.swing.SwingConstants;
 
-import Coding.Choosing_your_Class;
 import Coding.Choosing_your_Race;
 
 public class Keybinds_For_Race_Choice extends JFrame {
-private JLabel label;
+
+
     public Keybinds_For_Race_Choice() {
-            // Set up the JFrame
-            setTitle("Key Bindings Example");
-            setSize(400, 300);
-            setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        // Set up the JFrame
+        setTitle("Video Game");
+        setSize(400, 300);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
+        // Set the background color
+        getContentPane().setBackground(Color.BLACK);
 
-            // Panel to hold key bindings
-            JPanel panel = new JPanel();
-            getContentPane().add(panel);
-            panel.add(new JLabel(""));
+        // Add a label
+        JLabel label = new JLabel("Welcome to Spellslinger", SwingConstants.CENTER);
+        label.setFont(new Font("Pacifico", Font.PLAIN, 20));
+        label.setForeground(Color.WHITE);
+        add(label, BorderLayout.CENTER);
+
+        // Panel to hold key bindings
+        JPanel panel = new JPanel();
+        panel.setOpaque(false); // Allow the frame's background to show through
+        add(panel, BorderLayout.SOUTH);
 
             // Bind 'A' key to an action
             panel.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW)
@@ -42,6 +53,7 @@ private JLabel label;
                             System.out.println("2. Any martial weapon");
 
                         }
+
                         if (Choosing_your_Race.Section == 3) {
                             System.out.println("");
                             System.out.println("You chose Human, your stats are 11 Str, 11 Dex, 11 Con, 11 Wis, 11 Int, 11 Cha");
