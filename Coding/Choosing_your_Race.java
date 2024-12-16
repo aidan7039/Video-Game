@@ -21,9 +21,24 @@ public class Choosing_your_Race {
         int species = hello.nextInt();
         if (species == 2) {
             System.out.println("You chose elf, your stats are 10 Str, 12 Dex, 10 Con, 10 Wis, 11 Int, 10 Cha");
-        }if (species == 1) {
+            /*int str = 10;
+            int dex = 12;
+            int con = 10;
+            int wis = 10;
+            int inl = 11;
+            int cha = 10;*/
+        }
+
+        if (species == 1) {
             System.out.println("You chose Human, your stats are 11 Str, 11 Dex, 11 Con, 11 Wis, 11 Int, 11 Cha");
-        }if (species == 3) {
+            /*int str = 11;
+            int dex = 11;
+            int con = 11;
+            int wis = 11;
+            int inl = 11;
+            int cha = 11;*/
+        }
+        if (species == 3) {
             System.out.println("You chose Dwarf, your stats are 12 Str, 10 Dex, 10 Con, 11 Wis, 10 Int, 10 Cha");
         }if (species == 4) {
             System.out.println("You chose Halfling, your stats are 10 Str, 12 Dex, 11 Con, 10 Wis, 10 Int, 11 Cha");
