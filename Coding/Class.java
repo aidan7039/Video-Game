@@ -11,6 +11,6 @@ public class Class {
         wis = 10;
         cha = 10;
         a = str + dex + con + Int + wis + cha;
-        System.out.println(str + 1, dex + 1, con, Int, wis, cha);
+        System.out.println(a);
     }
 }
