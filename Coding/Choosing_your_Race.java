@@ -8,7 +8,6 @@ import Coding.keybinds.Keybinds_For_Race_Choice;
 public class Choosing_your_Race {
     //public static void main(String[] args) {
     public static int Section;
-
     public static void Run2() {
         Section = 3;
         Scanner hello = new Scanner(System.in);
