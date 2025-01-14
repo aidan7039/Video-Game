@@ -2,6 +2,8 @@ package Coding.Creatures;
 
 public class Class {
 
+
+
     public static void main(java.lang.Class<System> args) {
         int Str, Dex, Con, Int, Wis, Cha, a;
         Str = 10;
@@ -11,7 +13,7 @@ public class Class {
         Wis = 10;
         Cha = 10;
         Integer g = 10;
-        a = Str + Dex + Con + Int + Wis + Cha;
+        String basicStats = Str + Dex + Con + Int + Wis + Cha;
         System.out.println(a);
     }
 }
