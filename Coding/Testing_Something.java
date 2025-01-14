@@ -6,8 +6,7 @@ public class Testing_Something {
     static Coding.Class basicStats = new Class();
     //public static void Run3() {
     public static void main(String[] args) {
-        Integer i = 12;
-        int nice = 1;
+
         System.out.println(basicStats.a);
 
         Testing_Something test = new Testing_Something();
