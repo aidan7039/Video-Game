@@ -1,10 +1,9 @@
 package Coding;
 import Coding.Creatures.Class;
+import java.lang.Integer;
 public class Testing_Something {
+    public static void main(String[] args) {
+        Integer i = 12;
 
-    public class MyClass {
-        public void calculateSum(int a, int b) {
-            int result = a + b; // Use passed values
-        }
     }
 }
