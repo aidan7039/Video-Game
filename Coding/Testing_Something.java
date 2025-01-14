@@ -11,6 +11,5 @@ public class Testing_Something {
         Testing_Something test = new Testing_Something();
 
         System.out.println(test.x);
-
     }
 }
