@@ -8,6 +8,8 @@ public class MainRun {
             MainController.handleAction("ChooseClass");
             System.out.println("");
             MainController.handleAction("ChooseRace");
+            //System.out.println("");
+            //MainController.handleAction("Testing_Something");
         }
     }
 

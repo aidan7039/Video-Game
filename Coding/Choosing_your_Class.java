@@ -7,6 +7,7 @@ import Coding.keybinds.Keybinds_For_Race_Choice;
 public class Choosing_your_Class {
     //public static void main(String[] args) {
 
+int r = 1;
 
     public static void Run1() {
     //public static void main(String[] args) {
