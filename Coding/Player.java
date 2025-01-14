@@ -1,5 +1,5 @@
-package Coding.Creatures;
-import Coding.Creatures.Class;
+package Coding;
+
 public class Player {
 
     static Class basicStats = new Class();
