@@ -8,7 +8,7 @@ public class Choosing_your_Class {
     //public static void main(String[] args) {
 int r = 1;
 static Coding.Dice dice = new Dice();
-    public static void Run1() {
+    public static void Run1(){
     //public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Choosing_your_Race.Section = 1;

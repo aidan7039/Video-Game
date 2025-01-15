@@ -20,6 +20,9 @@ public class Choosing_your_Race {
         int species = hello.nextInt();
         if (species == 2) {
             System.out.println("You chose elf, your stats are 10 Str, 12 Dex, 10 Con, 10 Wis, 11 Int, 10 Cha");
+            System.out.println("Being an elf you are light and nimble, you weigh 125 pounds. You are also quite tall standing at an impressive 5'10");
+            System.out.println("Being a descendant of the elder people of the Far Lands you can live to be very old");
+            System.out.println("If I remember correctly you are 450 years old, around middle age for someone of your lineage");
             /*int estr = 10;
             int edex = 12;
             int econ = 10;
