@@ -1163,7 +1163,7 @@ public class Create_Character {
             int d = basicStats.Dex;
             int c = basicStats.Con;
             int i = basicStats.Int;
-            int w = basicStats.Wis;
+            int w = basicStats.Wis + 1;
             int C = basicStats.Cha;
 
             Scanner scanner = new Scanner(System.in);
@@ -1728,6 +1728,12 @@ public class Create_Character {
             }
         }if (species == 4) {
             System.out.println("You chose Halfling, your stats are 10 Str, 12 Dex, 11 Con, 10 Wis, 10 Int, 11 Cha");
+            int s = basicStats.Str;
+            int d = basicStats.Dex + 2;
+            int c = basicStats.Con;
+            int i = basicStats.Int;
+            int w = basicStats.Wis;
+            int C = basicStats.Cha + 1;
             Scanner scanner = new Scanner(System.in);
             Choosing_your_Race.Section = 1;
             System.out.println("Please choose your class");
@@ -2291,6 +2297,12 @@ public class Create_Character {
         }if (species > 5) {
             System.out.println("you are an ant");
             System.out.println("its stats are 0 Str, 1 Dex, 0 Con, 0 Wis, 0 Int, 0 Cha");
+            int s = basicStats.Str - 10;
+            int d = basicStats.Dex - 9;
+            int c = basicStats.Con - 10;
+            int i = basicStats.Int - 10;
+            int w = basicStats.Wis - 10;
+            int C = basicStats.Cha - 10;
             Scanner scanner = new Scanner(System.in);
             Choosing_your_Race.Section = 1;
             System.out.println("Please choose your class");
@@ -2853,6 +2865,7 @@ public class Create_Character {
             }
         }if (species == 5) {
             System.out.println("You chose Dragonborn, your stats are 12 Str, 10 Dex, 10 Con, 10 Wis, 10 int, 11 Cha");
+            int s = basicStats.Str;
             Scanner scanner = new Scanner(System.in);
             Choosing_your_Race.Section = 1;
             System.out.println("Please choose your class");
