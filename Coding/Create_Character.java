@@ -1,6 +1,6 @@
 package Coding;
 
-public class character_creation {
+public class Create_Character {
     public static void main(String[] args) {
 
     }
