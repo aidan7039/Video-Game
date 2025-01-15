@@ -12,6 +12,5 @@ public class Testing_Something {
         Testing_Something test = new Testing_Something();
         Choosing_your_Class cyc = new Choosing_your_Class();
         System.out.println(test.x);
-        System.out.println(cyc.r);
     }
 }
