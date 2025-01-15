@@ -5,8 +5,6 @@ import java.util.Scanner;
 import Coding.keybinds.Keybinds_For_Race_Choice;
 
 public class Choosing_your_Class {
-    //public static void main(String[] args) {
-int r = 1;
 static Coding.Dice dice = new Dice();
     public static void Run1(){
     //public static void main(String[] args) {
@@ -22,6 +20,7 @@ static Coding.Dice dice = new Dice();
         System.out.println("7. Wizard");
         new Keybinds_For_Race_Choice();
         int Class = scanner.nextInt();
+
 
         if (Class == 1) {
 

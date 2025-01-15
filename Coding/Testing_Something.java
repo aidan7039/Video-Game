@@ -12,5 +12,6 @@ public class Testing_Something {
 
         //System.out.println(basicStats.a);
         System.out.println(dice.d20);
+
     }
 }
