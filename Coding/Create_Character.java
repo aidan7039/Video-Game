@@ -18,12 +18,13 @@ public class Create_Character {
         int species = hello.nextInt();
         if (species == 2) {
             System.out.println("You chose elf, your stats are 10 Str, 12 Dex, 10 Con, 10 Wis, 11 Int, 10 Cha");
-            /*int estr = 10;
-            int edex = 12;
-            int econ = 10;
-            int ewis = 10;
-            int einl = 11;
-            int echa = 10;*/
+            int s = basicStats.Str;
+            int d = basicStats.Dex + 2;
+            int c = basicStats.Con;
+            int i = basicStats.Int;
+            int w = basicStats.Wis + 1;
+            int C = basicStats.Cha;
+
             Scanner scanner = new Scanner(System.in);
             Choosing_your_Race.Section = 1;
             System.out.println("Please choose your class");
@@ -588,12 +589,13 @@ public class Create_Character {
 
         if (species == 1) {
             System.out.println("You chose Human, your stats are 11 Str, 11 Dex, 11 Con, 11 Wis, 11 Int, 11 Cha");
-            /*int hstr = 11;
-            int hdex = 11;
-            int hcon = 11;
-            int hwis = 11;
-            int hinl = 11;
-            int hcha = 11;*/
+            int s = basicStats.Str + 1;
+            int d = basicStats.Dex + 1;
+            int c = basicStats.Con + 1;
+            int i = basicStats.Int + 1;
+            int w = basicStats.Wis + 1;
+            int C = basicStats.Cha + 1;
+
             Scanner scanner = new Scanner(System.in);
             Choosing_your_Race.Section = 1;
             System.out.println("Please choose your class");
@@ -1157,6 +1159,13 @@ public class Create_Character {
         }
         if (species == 3) {
             System.out.println("You chose Dwarf, your stats are 12 Str, 10 Dex, 10 Con, 11 Wis, 10 Int, 10 Cha");
+            int s = basicStats.Str + 2;
+            int d = basicStats.Dex;
+            int c = basicStats.Con;
+            int i = basicStats.Int;
+            int w = basicStats.Wis;
+            int C = basicStats.Cha;
+
             Scanner scanner = new Scanner(System.in);
             Choosing_your_Race.Section = 1;
             System.out.println("Please choose your class");
