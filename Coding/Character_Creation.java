@@ -1,7 +1,6 @@
 package Coding;
 
-public class Character_Creation {
-    Class basicStats = new Class();
+public class character_creation {
     public static void main(String[] args) {
 
     }
