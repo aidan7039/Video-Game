@@ -6,6 +6,7 @@ import Coding.keybinds.Keybinds_For_Race_Choice;
 
 public class Create_Character {
     static Class basicStats = new Class();
+    static Coding.Dice dice = new Dice();
     public static void main(String[] args) {
         System.out.println(basicStats.a);
         Scanner hello = new Scanner(System.in);
