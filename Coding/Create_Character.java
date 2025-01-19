@@ -19,13 +19,13 @@ public class Create_Character {
         System.out.println("5. Dragonborn");
         int species = hello.nextInt();
         if (species == 2) {
-            System.out.println("You chose elf, your stats are 10 Str, 12 Dex, 10 Con, 10 Wis, 11 Int, 10 Cha");
-            int s = basicStats.Str;
-            int d = basicStats.Dex + 2;
-            int c = basicStats.Con;
-            int i = basicStats.Int;
-            int w = basicStats.Wis + 1;
-            int C = basicStats.Cha;
+            int s = dice.d6 + dice.d6 + dice.d6;
+            int d = dice.d6 + dice.d6 + dice.d6 + 2;
+            int c = dice.d6 + dice.d6 + dice.d6;
+            int i = dice.d6 + dice.d6 + dice.d6;
+            int w = dice.d6 + dice.d6 + dice.d6 + 1;
+            int C = dice.d6 + dice.d6 + dice.d6;
+            System.out.println("You chose elf, your stats are " + s + " Str, " + d + " Dex, " + c + " Con, " + w + " Wis, " + i +" Int " + C + " Cha");
         }
         if (species == 1) {
             System.out.println("You chose Human, your stats are 11 Str, 11 Dex, 11 Con, 11 Wis, 11 Int, 11 Cha");
