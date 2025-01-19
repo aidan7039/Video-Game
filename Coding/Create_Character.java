@@ -63,8 +63,7 @@ public class Create_Character {
             int C = basicStats.Cha - 10;
         }if (species == 5) {
             System.out.println("You chose Dragonborn, your stats are 12 Str, 10 Dex, 10 Con, 10 Wis, 10 int, 11 Cha");
-            int s = basicStats.Str;
-            
+            int s = basicStats.Str;   
         }
         Scanner scanner = new Scanner(System.in);
         Choosing_your_Race.Section = 1;
