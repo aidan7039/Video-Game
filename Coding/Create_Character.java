@@ -2874,6 +2874,8 @@ public class Create_Character {
             scanner.close();
         }
     hello.close();
+    System.out.println("");
+    System.out.println("");
     System.out.println("You are in the world of Fadfeirld (<- Noah please change this later) the relm is in chaos and turmoil after the great dragon named dog came and started terrorizing the land.");
     System.out.println("(put something here)");
     }
