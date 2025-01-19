@@ -66,7 +66,6 @@ public class Create_Character {
             int s = basicStats.Str;
             
         }
-    
         Scanner scanner = new Scanner(System.in);
         Choosing_your_Race.Section = 1;
         System.out.println("Please choose your class");
