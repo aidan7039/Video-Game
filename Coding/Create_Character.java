@@ -25,33 +25,33 @@ public class Create_Character {
             int i = dice.d6 + dice.d6 + dice.d6;
             int w = dice.d6 + dice.d6 + dice.d6 + 1;
             int C = dice.d6 + dice.d6 + dice.d6;
-            System.out.println("You chose elf, your stats are " + s + " Str, " + d + " Dex, " + c + " Con, " + w + " Wis, " + i +" Int " + C + " Cha");
+            System.out.println("You chose Elf, your stats are " + s + " Str, " + d + " Dex, " + c + " Con, " + w + " Wis, " + i +" Int " + C + " Cha");
         }
         if (species == 1) {
-            System.out.println("You chose Human, your stats are 11 Str, 11 Dex, 11 Con, 11 Wis, 11 Int, 11 Cha");
-            int s = basicStats.Str + 1;
-            int d = basicStats.Dex + 1;
-            int c = basicStats.Con + 1;
-            int i = basicStats.Int + 1;
-            int w = basicStats.Wis + 1;
-            int C = basicStats.Cha + 1;
+            int s = dice.d6 + dice.d6 + dice.d6 + 1;
+            int d = dice.d6 + dice.d6 + dice.d6 + 1;
+            int c = dice.d6 + dice.d6 + dice.d6 + 1;
+            int i = dice.d6 + dice.d6 + dice.d6 + 1;
+            int w = dice.d6 + dice.d6 + dice.d6 + 1;
+            int C = dice.d6 + dice.d6 + dice.d6 + 1;
+            System.out.println("You chose Human, your stats are " + s + " Str, " + d + " Dex, " + c + " Con, " + w + " Wis, " + i +" Int " + C + " Cha");
         }
         if (species == 3) {
-            System.out.println("You chose Dwarf, your stats are 12 Str, 10 Dex, 10 Con, 11 Wis, 10 Int, 10 Cha");
-            int s = basicStats.Str + 2;
-            int d = basicStats.Dex;
-            int c = basicStats.Con;
-            int i = basicStats.Int;
-            int w = basicStats.Wis + 1;
-            int C = basicStats.Cha;
+            int s = dice.d6 + dice.d6 + dice.d6 + 2;
+            int d = dice.d6 + dice.d6 + dice.d6;
+            int c = dice.d6 + dice.d6 + dice.d6;
+            int i = dice.d6 + dice.d6 + dice.d6;
+            int w = dice.d6 + dice.d6 + dice.d6 + 1;
+            int C = dice.d6 + dice.d6 + dice.d6;
+            System.out.println("You chose Dwarf, your stats are " + s + " Str, " + d + " Dex, " + c + " Con, " + w + " Wis, " + i +" Int " + C + " Cha");
         }if (species == 4) {
-            System.out.println("You chose Halfling, your stats are 10 Str, 12 Dex, 11 Con, 10 Wis, 10 Int, 11 Cha");
-            int s = basicStats.Str;
-            int d = basicStats.Dex + 2;
-            int c = basicStats.Con;
-            int i = basicStats.Int;
-            int w = basicStats.Wis;
-            int C = basicStats.Cha + 1;
+            int s = dice.d6 + dice.d6 + dice.d6;
+            int d = dice.d6 + dice.d6 + dice.d6 + 2;
+            int c = dice.d6 + dice.d6 + dice.d6;
+            int i = dice.d6 + dice.d6 + dice.d6;
+            int w = dice.d6 + dice.d6 + dice.d6;
+            int C = dice.d6 + dice.d6 + dice.d6 + 1;
+            System.out.println("You chose Halfling, your stats are " + s + " Str, " + d + " Dex, " + c + " Con, " + w + " Wis, " + i +" Int " + C + " Cha");
         }if (species > 5) {
             System.out.println("you are an ant");
             System.out.println("its stats are 0 Str, 1 Dex, 0 Con, 0 Wis, 0 Int, 0 Cha");
@@ -62,8 +62,13 @@ public class Create_Character {
             int w = basicStats.Wis - 10;
             int C = basicStats.Cha - 10;
         }if (species == 5) {
-            System.out.println("You chose Dragonborn, your stats are 12 Str, 10 Dex, 10 Con, 10 Wis, 10 int, 11 Cha");
-            int s = basicStats.Str;   
+            int s = dice.d6 + dice.d6 + dice.d6 + 2;
+            int d = dice.d6 + dice.d6 + dice.d6;
+            int c = dice.d6 + dice.d6 + dice.d6;
+            int i = dice.d6 + dice.d6 + dice.d6;
+            int w = dice.d6 + dice.d6 + dice.d6;
+            int C = dice.d6 + dice.d6 + dice.d6 + 1;
+            System.out.println("You chose Dragonborn, your stats are " + s + " Str, " + d + " Dex, " + c + " Con, " + w + " Wis, " + i +" Int " + C + " Cha");
         }
         Scanner scanner = new Scanner(System.in);
         Choosing_your_Race.Section = 1;
