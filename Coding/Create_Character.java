@@ -54,13 +54,13 @@ public class Create_Character {
             System.out.println("You chose Halfling, your stats are " + s + " Str, " + d + " Dex, " + c + " Con, " + w + " Wis, " + i +" Int " + C + " Cha");
         }if (species > 5) {
             System.out.println("you are an ant");
-            System.out.println("its stats are 0 Str, 1 Dex, 0 Con, 0 Wis, 0 Int, 0 Cha");
             int s = basicStats.Str - 10;
             int d = basicStats.Dex - 9;
             int c = basicStats.Con - 10;
             int i = basicStats.Int - 10;
             int w = basicStats.Wis - 10;
             int C = basicStats.Cha - 10;
+            System.out.println("You chose Ant, your stats are " + s + " Str, " + d + " Dex, " + c + " Con, " + w + " Wis, " + i +" Int " + C + " Cha");
         }if (species == 5) {
             int s = dice.d6 + dice.d6 + dice.d6 + 2;
             int d = dice.d6 + dice.d6 + dice.d6;
