@@ -570,7 +570,6 @@ static Coding.Dice dice = new Dice();
                 }
             }
 
-
-
+        scanner.close();
         }
     }
