@@ -8,7 +8,6 @@ public class Create_Character {
     static Class basicStats = new Class();
     static Coding.Dice dice = new Dice();
     public static void main(String[] args) {
-        System.out.println(basicStats.a);
         Scanner hello = new Scanner(System.in);
         System.out.println("Please choose your race");
         System.out.println("1. Human");
@@ -2875,5 +2874,7 @@ public class Create_Character {
             scanner.close();
         }
     hello.close();
+    System.out.println("You are in the world of Fadfeirld (<- Noah please change this later) the relm is in chaos and turmoil after the great dragon named dog.");
+    System.out.println("it is your job to save the world from dog.");
     }
 }
