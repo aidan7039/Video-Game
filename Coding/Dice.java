@@ -17,6 +17,26 @@ public class Dice {
 
     int d4 = random.nextInt(4) + 1;
 
+    //ability score d6s
+    int d61 = random.nextInt(6) + 1;
+    int d62 = random.nextInt(6) + 1;
+    int d63 = random.nextInt(6) + 1;
+    int d64 = random.nextInt(6) + 1;
+    int d65 = random.nextInt(6) + 1;
+    int d66 = random.nextInt(6) + 1;
+    int d67 = random.nextInt(6) + 1;
+    int d68 = random.nextInt(6) + 1;
+    int d69 = random.nextInt(6) + 1;
+    int d610 = random.nextInt(6) + 1;
+    int d611 = random.nextInt(6) + 1;
+    int d612 = random.nextInt(6) + 1;
+    int d613 = random.nextInt(6) + 1;
+    int d614 = random.nextInt(6) + 1;
+    int d615 = random.nextInt(6) + 1;
+    int d616 = random.nextInt(6) + 1;
+    int d617 = random.nextInt(6) + 1;
+    int d618 = random.nextInt(6) + 1;
+
     public static void main(String[] args) {
 
         }
