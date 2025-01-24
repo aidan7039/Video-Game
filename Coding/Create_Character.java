@@ -19,38 +19,38 @@ public class Create_Character {
         System.out.println("5. Dragonborn");
         int species = hello.nextInt();
         if (species == 2) {
-            int s = dice.d6 + dice.d6 + dice.d6;
-            int d = dice.d6 + dice.d6 + dice.d6 + 2;
-            int c = dice.d6 + dice.d6 + dice.d6;
-            int i = dice.d6 + dice.d6 + dice.d6;
-            int w = dice.d6 + dice.d6 + dice.d6 + 1;
-            int C = dice.d6 + dice.d6 + dice.d6;
+            int s = dice.d61 + dice.d62+ dice.d63;
+            int d = dice.d64 + dice.d65 + dice.d66 + 2;
+            int c = dice.d67 + dice.d68 + dice.d69;
+            int i = dice.d610 + dice.d611 + dice.d612;
+            int w = dice.d613 + dice.d614 + dice.d615 + 1;
+            int C = dice.d616 + dice.d617 + dice.d618;
             System.out.println("You chose Elf, your stats are " + s + " Str, " + d + " Dex, " + c + " Con, " + w + " Wis, " + i +" Int " + C + " Cha");
         }
         if (species == 1) {
-            int s = dice.d6 + dice.d6 + dice.d6 + 1;
-            int d = dice.d6 + dice.d6 + dice.d6 + 1;
-            int c = dice.d6 + dice.d6 + dice.d6 + 1;
-            int i = dice.d6 + dice.d6 + dice.d6 + 1;
-            int w = dice.d6 + dice.d6 + dice.d6 + 1;
-            int C = dice.d6 + dice.d6 + dice.d6 + 1;
+            int s = dice.d61 + dice.d62+ dice.d63 + 1;
+            int d = dice.d64 + dice.d65 + dice.d66 + 1;
+            int c = dice.d67 + dice.d68 + dice.d69 + 1;
+            int i = dice.d610 + dice.d611 + dice.d612 + 1;
+            int w = dice.d613 + dice.d614 + dice.d615 + 1;
+            int C = dice.d616 + dice.d617 + dice.d618 + 1;
             System.out.println("You chose Human, your stats are " + s + " Str, " + d + " Dex, " + c + " Con, " + w + " Wis, " + i +" Int " + C + " Cha");
         }
         if (species == 3) {
-            int s = dice.d6 + dice.d6 + dice.d6 + 2;
-            int d = dice.d6 + dice.d6 + dice.d6;
-            int c = dice.d6 + dice.d6 + dice.d6;
-            int i = dice.d6 + dice.d6 + dice.d6;
-            int w = dice.d6 + dice.d6 + dice.d6 + 1;
-            int C = dice.d6 + dice.d6 + dice.d6;
+            int s = dice.d61 + dice.d62+ dice.d63 + 2;
+            int d = dice.d64 + dice.d65 + dice.d66;
+            int c = dice.d67 + dice.d68 + dice.d69;
+            int i = dice.d610 + dice.d611 + dice.d612;
+            int w = dice.d613 + dice.d614 + dice.d615 + 1;
+            int C = dice.d616 + dice.d617 + dice.d618;
             System.out.println("You chose Dwarf, your stats are " + s + " Str, " + d + " Dex, " + c + " Con, " + w + " Wis, " + i +" Int " + C + " Cha");
         }if (species == 4) {
-            int s = dice.d6 + dice.d6 + dice.d6;
-            int d = dice.d6 + dice.d6 + dice.d6 + 2;
-            int c = dice.d6 + dice.d6 + dice.d6;
-            int i = dice.d6 + dice.d6 + dice.d6;
-            int w = dice.d6 + dice.d6 + dice.d6;
-            int C = dice.d6 + dice.d6 + dice.d6 + 1;
+            int s = dice.d61 + dice.d62+ dice.d63;
+            int d = dice.d64 + dice.d65 + dice.d66 + 2;
+            int c = dice.d67 + dice.d68 + dice.d69;
+            int i = dice.d610 + dice.d611 + dice.d612;
+            int w = dice.d613 + dice.d614 + dice.d615;
+            int C = dice.d616 + dice.d617 + dice.d618 + 1;
             System.out.println("You chose Halfling, your stats are " + s + " Str, " + d + " Dex, " + c + " Con, " + w + " Wis, " + i +" Int " + C + " Cha");
         }if (species > 5) {
             System.out.println("you are an ant");
@@ -62,12 +62,12 @@ public class Create_Character {
             int C = basicStats.Cha - 10;
             System.out.println("You chose Ant, your stats are " + s + " Str, " + d + " Dex, " + c + " Con, " + w + " Wis, " + i +" Int " + C + " Cha");
         }if (species == 5) {
-            int s = dice.d6 + dice.d6 + dice.d6 + 2;
-            int d = dice.d6 + dice.d6 + dice.d6;
-            int c = dice.d6 + dice.d6 + dice.d6;
-            int i = dice.d6 + dice.d6 + dice.d6;
-            int w = dice.d6 + dice.d6 + dice.d6;
-            int C = dice.d6 + dice.d6 + dice.d6 + 1;
+            int s = dice.d61 + dice.d62+ dice.d63 + 2;
+            int d = dice.d64 + dice.d65 + dice.d66;
+            int c = dice.d67 + dice.d68 + dice.d69;
+            int i = dice.d610 + dice.d611 + dice.d612;
+            int w = dice.d613 + dice.d614 + dice.d615;
+            int C = dice.d616 + dice.d617 + dice.d618 + 1;
             System.out.println("You chose Dragonborn, your stats are " + s + " Str, " + d + " Dex, " + c + " Con, " + w + " Wis, " + i +" Int " + C + " Cha");
         }
         Scanner scanner = new Scanner(System.in);
@@ -638,5 +638,9 @@ public class Create_Character {
         System.out.println("please state which direction you want to go in");
         String hi = hello.nextLine();
         System.out.println(hi);
+
+
+
+    hello.close();
     }
 }
