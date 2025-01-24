@@ -631,25 +631,11 @@ public class Create_Character {
             }
         }
         scanner.close();
-        hello.close();
-        Scanner scanners = new Scanner(System.in);
         System.out.println("");
         System.out.println("");
         System.out.println("hello " + name + " ever since the great dragon came and destroyed the great Kingdom of Paladindra ever since the world of fadfeirld has been in great turmoil.");
         System.out.println("You are in the world of Fadfeirld (Noah please change this later) the realm is in chaos and turmoil after the great dragon named dog came and started terrorizing the  land.");
-        System.out.println("");
-        System.out.println("Where would you like to go");
-        System.out.println("1.strait");
-        //int hellothere = scanners.nextInt();
-        //if (hellothere == 1) {
-          //  System.out.println("hello traveler");
-        //}
-        String prob = scanners.nextLine();
-        String u = prob;
-        System.out.println(u);
-        if (u == "Mark") {
-        System.out.println("hello traveler"); 
-        }
-        scanners.close();
+        String hi = hello.nextLine();
+        System.out.println(hi);
     }
 }
