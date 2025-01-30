@@ -16,6 +16,7 @@ public class Stores {
             }
             if (userAnswer.equalsIgnoreCase(general_store)) {
                 System.out.println("Do you want to look at whats here?");
+                MainController.handleAction("General_store");
             }
             if (userAnswer.equalsIgnoreCase(tavern)) {
                 System.out.println("do you want a drink?");

@@ -33,6 +33,9 @@ public class MainController {
             case "Blacksmith":
                 Blacksmith.Run9();
                 break;
+            case "General_store":
+                General_store.Run10();
+                break;
            case "Keybinds":
 
             default:
