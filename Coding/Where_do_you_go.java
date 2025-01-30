@@ -2,7 +2,7 @@ package Coding;
 import java.util.Scanner;
 public class Where_do_you_go {
 
-    //public static void Run5() {
+    //public static void Run4() {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String strait = "straight";

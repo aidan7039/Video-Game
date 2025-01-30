@@ -12,8 +12,8 @@ public class MainController {
             case "ChooseRace":
                 Choosing_your_Race.Run2();
                 break;
-            //case "Create_Character":
-                //Create_Character.Run4();
+            //case "Where_do_you_go":
+                //Where_do_you_go.Run4();
                 //break;
             case "CombatTest":
                 CombatTest.Run5();
