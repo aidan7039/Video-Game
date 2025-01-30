@@ -1,6 +1,9 @@
 package Coding;
 
 public class MainController {
+    /**
+     * @param action
+     */
     public static void handleAction(String action) {
         switch (action) {
             case "ChooseClass":
@@ -9,8 +12,11 @@ public class MainController {
             case "ChooseRace":
                 Choosing_your_Race.Run2();
                 break;
-            //case "Testing_Something":
-                //Testing_Something.Run3();
+            //case "Create_Character":
+                //Create_Character.Run4();
+                //break;
+            //case "Where_do_you_go":
+                //Where_do_you_go.Run5();
                 //break;
            case "Keybinds":
 

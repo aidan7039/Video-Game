@@ -1,6 +1,7 @@
 package Coding;
 import java.util.Scanner;
 public class Where_do_you_go {
+    //public static void Run5() {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String strait = "straight";
@@ -28,8 +29,6 @@ public class Where_do_you_go {
                 System.out.println("strait ahead of you there is a town");
                 System.out.println("");
                 System.out.println("");
-            } else {
-                System.out.println("try again");
             }
         }
     }
