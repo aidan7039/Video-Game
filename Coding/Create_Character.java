@@ -8,8 +8,8 @@ public class Create_Character {
     static Class basicStats = new Class();
     static Coding.Dice dice = new Dice();
     static Where_do_you_go direct = new Where_do_you_go();
-    public static void Run3() {
-    //public static void main(String[] args) {
+    //public static void Run3() {
+    public static void main(String[] args) {
         Scanner hello = new Scanner(System.in);
         System.out.println("please enter your character's name");
         String name = hello.nextLine();
@@ -136,6 +136,7 @@ public class Create_Character {
             }
 
             System.out.println("Here take this explorer's pack and these four javelins, you'll need them on your adventure.");
+            MainController.handleAction("RUN2");
         }
         if (Class == 2) {
             System.out.println("You chose cleric, you use the power of the gods to carry out their will.");
@@ -204,6 +205,7 @@ public class Create_Character {
                 System.out.println("An explorer's pack is perfect for travelers, it has all of the basics needed to survive and thrive away from home.");
             }
             System.out.println("Lastly here's a shield and a holy symbol to complete your cleric equipment.");
+            MainController.handleAction("RUN2");
 
         }
         if (Class == 3) {
@@ -223,6 +225,7 @@ public class Create_Character {
                 int drudw = scanner.nextInt();
                 if (drudw == 1) {
                     System.out.println("A scimitar is a nice weapon to help you on your journey");
+                    MainController.handleAction("RUN2");
                 }
                 if (drudw == 2) {
                     System.out.println("now chose a simple melee weapon");
@@ -239,6 +242,7 @@ public class Create_Character {
                     int drudwe = scanner.nextInt();
                     if (drudwe > 0) {
                         System.out.println("That was an excelent choice a weapon to defend oneself is always needed.");
+                        MainController.handleAction("RUN2");
                     }
                 }
             }
@@ -263,6 +267,7 @@ public class Create_Character {
                     int druders = scanner.nextInt();
                     if (druders == 1) {
                         System.out.println("A scimitar is a nice weapon to help you on your journey");
+                        MainController.handleAction("RUN2");
                     }
                     if (druders == 2) {
                         System.out.println("now chose a simple melee weapon");
@@ -279,6 +284,7 @@ public class Create_Character {
                         int drudwes = scanner.nextInt();
                         if (drudwes > 0) {
                             System.out.println("That was an excelent choice a weapon to defend oneself is always needed.");
+                            MainController.handleAction("RUN2");
 
                         }
                     }
@@ -312,6 +318,7 @@ public class Create_Character {
                     int fit = scanner.nextInt();
                     if (fit > 0) {
                         System.out.println("Good choice, a fighter is able to wield any martial weapon with great skill and a shield is a great choice for defence.");
+                        MainController.handleAction("RUN2");
                     }
 
                 }
@@ -325,6 +332,7 @@ public class Create_Character {
                     int fite = scanner.nextInt();
                     if (fite > 0) {
                         System.out.println("That is a great choice two weapons will allow you to deal more damage than if you had one");
+                        MainController.handleAction("RUN2");
                     }
 
                 }
@@ -351,6 +359,7 @@ public class Create_Character {
                     int fits = scanner.nextInt();
                     if (fits > 0) {
                         System.out.println("Good choice, a fighter is able to wield any martial weapon with great skill and a shield is a great choice for defence.");
+                        MainController.handleAction("RUN2");
                     }
 
                 }
@@ -364,6 +373,7 @@ public class Create_Character {
                     int fitee = scanner.nextInt();
                     if (fitee > 0) {
                         System.out.println("That is a great choice two weapons will allow you to deal more damage than  if you had one");
+                        MainController.handleAction("RUN2");
                     }
 
                 }
@@ -393,9 +403,11 @@ public class Create_Character {
                     int rangep = scanner.nextInt();
                     if (rangep == 1) {
                         System.out.println("This contains all of the equipment that you need to traverse dungeons");
+                        MainController.handleAction("RUN2");
                     }
                     if (rangep == 2) {
                         System.out.println("This contains all of the equipment that you would need to explore the world");
+                        MainController.handleAction("RUN2");
                     }
                 }
                 if (rangemw == 2) {
@@ -419,9 +431,11 @@ public class Create_Character {
                         int rangepp = scanner.nextInt();
                         if (rangepp == 1) {
                             System.out.println("This contains all of the equipment that you need to traverse dungeons");
+                            MainController.handleAction("RUN2");
                         }
                         if (rangepp == 2) {
                             System.out.println("This contains all of the equipment that you would need to explore the world");
+                            MainController.handleAction("RUN2");
                         }
                     }
                 }
@@ -440,9 +454,11 @@ public class Create_Character {
                     int rangepw = scanner.nextInt();
                     if (rangepw == 1) {
                         System.out.println("This contains all of the equipment that you need to traverse dungeons");
+                        MainController.handleAction("RUN2");
                     }
                     if (rangepw == 2) {
                         System.out.println("This contains all of the equipment that you would need to explore the world");
+                        MainController.handleAction("RUN2");
                     }
                 }
                 if (rangemww == 2) {
@@ -466,9 +482,11 @@ public class Create_Character {
                         int rangeppp = scanner.nextInt();
                         if (rangeppp == 1) {
                             System.out.println("This contains all of the equipment that you need to traverse dungeons");
+                            MainController.handleAction("RUN2");
                         }
                         if (rangeppp == 2) {
                             System.out.println("This contains all of the equipment that you would need to explore the world");
+                            MainController.handleAction("RUN2");
                         }
                     }
                 }
@@ -497,14 +515,17 @@ public class Create_Character {
                     if (roger == 1) {
                         System.out.println("This will help you rob people");
                         System.out.println("you will also get leather armor, two daggers, and thieves' tools");
+                        MainController.handleAction("RUN2");
                     }
                     if (roger == 2) {
                         System.out.println("May this help you on whatever dungeon explorations you go on");
                         System.out.println("you will also get leather armor, two daggers, and thieves' tools");
+                        MainController.handleAction("RUN2");
                     }
                     if (roger == 3) {
                         System.out.println("May this help you on all of you future explorations");
                         System.out.println("You will also get leather armor, two daggers, and thieves' tools");
+                        MainController.handleAction("RUN2");
                     }
                 }
                 if (roge == 2) {
@@ -517,14 +538,17 @@ public class Create_Character {
                     if (rogerr == 1) {
                         System.out.println("This will help you rob people");
                         System.out.println("you will also get leather armor, two daggers, and thieves' tools");
+                        MainController.handleAction("RUN2");
                     }
                     if (rogerr == 2) {
                         System.out.println("May this help you on whatever dungeon explorations you go on");
                         System.out.println("you will also get leather armor, two daggers, and thieves' tools");
+                        MainController.handleAction("RUN2");
                     }
                     if (rogerr == 3) {
                         System.out.println("May this help you on all of you future explorations");
                         System.out.println("You will also get leather armor, two daggers, and thieves' tools");
+                        MainController.handleAction("RUN2");
                     }
                 }
             }
@@ -544,14 +568,17 @@ public class Create_Character {
                     if (rogero == 1) {
                         System.out.println("This will help you rob people");
                         System.out.println("you will also get leather armor, two daggers, and thieves' tools");
+                        MainController.handleAction("RUN2");
                     }
                     if (rogero == 2) {
                         System.out.println("May this help you on whatever dungeon explorations you go on");
                         System.out.println("you will also get leather armor, two daggers, and thieves' tools");
+                        MainController.handleAction("RUN2");
                     }
                     if (rogero == 3) {
                         System.out.println("May this help you on all of you future explorations");
                         System.out.println("You will also get leather armor, two daggers, and thieves' tools");
+                        MainController.handleAction("RUN2");
                     }
                 }
                 if (rogeo == 2) {
@@ -564,14 +591,17 @@ public class Create_Character {
                     if (rogerro == 1) {
                         System.out.println("This will help you rob people");
                         System.out.println("you will also get leather armor, two daggers, and thieves' tools");
+                        MainController.handleAction("RUN2");
                     }
                     if (rogerro == 2) {
                         System.out.println("May this help you on whatever dungeon explorations you go on");
                         System.out.println("you will also get leather armor, two daggers, and thieves' tools");
+                        MainController.handleAction("RUN2");
                     }
                     if (rogerro == 3) {
                         System.out.println("May this help you on all of you future explorations");
                         System.out.println("You will also get leather armor, two daggers, and thieves' tools");
+                        MainController.handleAction("RUN2");
                     }
                 }
             }
@@ -588,6 +618,7 @@ public class Create_Character {
 
             if (wizequip > 0) {
                 System.out.println("Interesting choice I'm excited to see how your adventure goes");
+                MainController.handleAction("RUN2");
             }
         }
         hello.close();

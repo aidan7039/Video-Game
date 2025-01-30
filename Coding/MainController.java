@@ -18,9 +18,9 @@ public class MainController {
             case "CombatTest":
                 CombatTest.Run5();
                 break;
-            case "Create_Character":
-                Create_Character.Run3();
-                break;
+            //case "Create_Character":
+                //Create_Character.Run3();
+                //break;
             case "RUN2":
                 RUN2.Run6();
                 break;

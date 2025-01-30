@@ -1,20 +1,18 @@
 package Coding;
 import java.util.Scanner;
 public class Where_do_you_go {
-
+Create_Character cc = new Create_Character();
     public static void Run4() {
     //public static void main(String[] args) {
-        Scanner can = new Scanner(System.in);
         String strait = "straight";
         String right = "right";
         String left = "left";
         String look_around = "look around";
         String userAnswer;
         System.out.println("what direction do you want to go in");
+        Scanner can = new Scanner(System.in);
         while(true) {
-            System.out.println("");
             userAnswer = can.nextLine();
-            System.out.println("");
             if (userAnswer.equalsIgnoreCase(strait)) {
                 MainController.handleAction("CombatTest");
                 System.out.println("you enter the town");
