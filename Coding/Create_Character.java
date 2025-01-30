@@ -2,14 +2,14 @@ package Coding;
 
 import java.util.Scanner;
 
-import Coding.keybinds.Keybinds_For_Race_Choice;
+//import Coding.keybinds.Keybinds_For_Race_Choice;
 
 public class Create_Character {
     static Class basicStats = new Class();
     static Coding.Dice dice = new Dice();
     static Where_do_you_go direct = new Where_do_you_go();
-    //public static void Run4() {
-    public static void main(String[] args) {
+    public static void Run3() {
+    //public static void main(String[] args) {
         Scanner hello = new Scanner(System.in);
         System.out.println("please enter your character's name");
         String name = hello.nextLine();
@@ -73,7 +73,7 @@ public class Create_Character {
             System.out.println("You chose Dragonborn, your stats are " + s + " Str, " + d + " Dex, " + c + " Con, " + w + " Wis, " + i +" Int " + C + " Cha");
         }
         Scanner scanner = new Scanner(System.in);
-        Choosing_your_Race.Section = 1;
+        //Choosing_your_Race.Section = 1;
         System.out.println("Please choose your class");
         System.out.println("1. Barbarian");
         System.out.println("2. Cleric");
@@ -82,7 +82,7 @@ public class Create_Character {
         System.out.println("5. Ranger");
         System.out.println("6. Rogue");
         System.out.println("7. Wizard");
-        new Keybinds_For_Race_Choice();
+        //new Keybinds_For_Race_Choice();
         int Class = scanner.nextInt();
 
         if (Class == 1) {
@@ -638,7 +638,6 @@ public class Create_Character {
         System.out.println("");
         System.out.println("hello " + name + " ever since the great dragon came and destroyed the great Kingdom of Paladindra ever since the world of fadfeirld has been in great turmoil.");
         System.out.println("You are in the world of Fadfeirld (Noah please change this later) the realm is in chaos and turmoil after the great dragon named dog came and started terrorizing the  land.");
-        MainController.handleAction("Where_do_you_go");
     
     }
 }
