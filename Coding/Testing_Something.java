@@ -41,7 +41,8 @@ public class Testing_Something {
             if (goblinrl >= AC) {
                 System.out.println("You've been hit! You take " + (dice.d6gbscimitar) + " damage.");
                 System.out.println("Your health is now " + (health - dice.d6gbscimitar + "."));
-                if (health <= 0){
+                int newhealth = health-dice.d6gbscimitar;
+                if (newhealth <= 0){
                     System.out.println("You are dead. May the gods bless you in the afterlife");
                 }
             } else {
