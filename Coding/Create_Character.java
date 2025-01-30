@@ -9,6 +9,7 @@ public class Create_Character {
     static Coding.Dice dice = new Dice();
     public static void main(String[] args) {
         Scanner hello = new Scanner(System.in);
+        Scanner hi = new Scanner(System.in);
         System.out.println("please enter your character's name");
         String name = hello.nextLine();
         System.out.println("Please choose your race");
@@ -636,9 +637,13 @@ public class Create_Character {
         System.out.println("hello " + name + " ever since the great dragon came and destroyed the great Kingdom of Paladindra ever since the world of fadfeirld has been in great turmoil.");
         System.out.println("You are in the world of Fadfeirld (Noah please change this later) the realm is in chaos and turmoil after the great dragon named dog came and started terrorizing the  land.");
         System.out.println("please state which direction you want to go in");
-        int hi = hello.nextInt();
-        if (hi == 1) {
+        String hie = hi.nextLine();
+        System.out.println(hie);
+        if (hie == "Mark") {
             System.out.println("hi");
+        }
+        if (hie == "hello") {
+            System.out.println("hello");
         }
 
 
