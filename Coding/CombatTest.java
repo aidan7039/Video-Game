@@ -8,8 +8,10 @@ public class CombatTest {
         Scanner scanner = new Scanner(System.in);
 
         int health = 3 + dice.d10;
+        int gbhealth = 0 + (dice.d6*2);
         int DexModifier = 2;
         int AC = 13;
+        int goblinAC = 12;
         dice.d6gbscimitar = dice.d6gbscimitar + 2;
         dice.d6gbscimitar2 = dice.d6gbscimitar2 + 2;
 
@@ -59,7 +61,17 @@ public class CombatTest {
             System.out.println("4. Shortbow");
             int wpnchc = scanner.nextInt();
             if (wpnchc == 1){
-
+            System.out.println("You attack the goblin with a shortsword.");
+            int playerrl = dice.d20;
+            if (dice.d20 >= 12){
+                System.out.println("You hit the goblin.");
+                System.out.println("You deal " + dice.shortsword + " damage to the goblin.");
+                if (gbhealth <= 0){
+                    System.out.println("You have defeated the goblin.");
+                }
+            } else {
+                System.out.println("You miss the goblin.");
+            }
             }
         }
         if (choice == 2){

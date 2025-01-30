@@ -43,6 +43,9 @@ public class Dice {
     int d20gb2 = random.nextInt(20) + 1;
     int gbopportunity = random.nextInt(20) + 1;
 
+
+    //weaoons
+    int shortsword = random.nextInt(6) + 1;
     public static void main(String[] args) {
 
         }
