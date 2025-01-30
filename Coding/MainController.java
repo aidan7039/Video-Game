@@ -24,6 +24,9 @@ public class MainController {
             case "RUN2":
                 RUN2.Run6();
                 break;
+            case "Intoduction":
+                Intoduction.Run7();
+                break;
            case "Keybinds":
 
             default:

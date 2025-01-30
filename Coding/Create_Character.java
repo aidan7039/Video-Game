@@ -11,8 +11,6 @@ public class Create_Character {
     //public static void Run3() {
     public static void main(String[] args) {
         Scanner hello = new Scanner(System.in);
-        System.out.println("please enter your character's name");
-        String name = hello.nextLine();
         System.out.println("Please choose your race");
         System.out.println("1. Human");
         System.out.println("2. Elf");
@@ -623,10 +621,7 @@ public class Create_Character {
         }
         hello.close();
         scanner.close();
-        System.out.println("");
-        System.out.println("");
-        System.out.println("hello " + name + " ever since the great dragon came and destroyed the great Kingdom of Paladindra ever since the world of fadfeirld has been in great turmoil.");
-        System.out.println("You are in the world of Fadfeirld (Noah please change this later) the realm is in chaos and turmoil after the great dragon named dog came and started terrorizing the  land.");
+        
     
     }
 }
