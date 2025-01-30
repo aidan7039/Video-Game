@@ -31,8 +31,5 @@ public class Testing_Something {
 
         //the below line shows that we can use Strings from other classes
         //System.out.println(gdh.story);
-
-        //THE BELOW CODE IS AN EXAMPLE OF WHAT A COMBAT ENCOUNTER MIGHT LOOK LIKE
-
     }
 }
