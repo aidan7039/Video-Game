@@ -57,9 +57,6 @@ public class CombatTest {
         if (choice == 1){
             System.out.println("Select which weapon you would like to use.");
             System.out.println("1. Shortsword");
-            System.out.println("2. Longsword");
-            System.out.println("3. Dagger");
-            System.out.println("4. Shortbow");
             int wpnchc = scanner.nextInt();
             if (wpnchc == 1){
             System.out.println("You attack the goblin with a shortsword.");
@@ -73,7 +70,8 @@ public class CombatTest {
                 }
             } else {
                 System.out.println("You miss the goblin.");
-            }
+                System.out.println("It is now the goblin's turn.");
+                }
             }
         }
         if (choice == 2){
