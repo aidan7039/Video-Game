@@ -2,7 +2,8 @@ package Coding;
 import java.util.Scanner;
 public class CombatTest {
     static Coding.Dice dice = new Dice();
-    public static void main(String[] args) {
+    public static void Run5() {
+    //public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
 

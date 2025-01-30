@@ -15,9 +15,9 @@ public class MainController {
             //case "Create_Character":
                 //Create_Character.Run4();
                 //break;
-            //case "Where_do_you_go":
-                //Where_do_you_go.Run5();
-                //break;
+            case "CombatTest":
+                CombatTest.Run5();
+                break;
            case "Keybinds":
 
             default:

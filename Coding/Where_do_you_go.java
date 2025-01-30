@@ -1,6 +1,7 @@
 package Coding;
 import java.util.Scanner;
 public class Where_do_you_go {
+
     //public static void Run5() {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -9,15 +10,17 @@ public class Where_do_you_go {
         String left = "left";
         String look_around = "look around";
         String userAnswer;
+        System.out.println("what direction do you want to go in");
         while(true) {
-            System.out.println("what direction do you want to go in");
             userAnswer = scanner.nextLine();
             if (userAnswer.equalsIgnoreCase(strait)) {
-                System.out.println("hello there");
+                MainController.handleAction("CombatTest");
+                System.out.println("you enter the town");
             }
             if (userAnswer.equalsIgnoreCase(right)) {
                 System.out.println("your are heading towards a cliff");
                 System.out.println("do you want to keep going?");
+                MainController.handleAction("CombatTest");
             }
             if (userAnswer.equalsIgnoreCase(left)) {
                 System.out.println("you are in a river");
@@ -30,6 +33,7 @@ public class Where_do_you_go {
                 System.out.println("");
                 System.out.println("");
             }
+        scanner.close();
         }
     }
 }
