@@ -61,16 +61,25 @@ public class CombatTest {
             if (wpnchc == 1){
             System.out.println("You attack the goblin with a shortsword.");
             int playerrl = dice.d20;
-            if (dice.d20 >= 12){
-                System.out.println("You hit the goblin.");
-                System.out.println("You deal " + dice.shortsword + " damage to the goblin.");
-                gbhealth = gbhealth-dice.shortsword;
+            if (playerrl == 20){
+                System.out.println("You've landed a critical hit!");
+                System.out.println("You deal " + (dice.shortsword*2) + " damage to the goblin.");
+                gbhealth = gbhealth-(dice.shortsword*2);
                 if (gbhealth <= 0){
                     System.out.println("You have defeated the goblin.");
                 }
             } else {
-                System.out.println("You miss the goblin.");
-                System.out.println("It is now the goblin's turn.");
+                if (playerrl >= 12){
+                    System.out.println("You hit the goblin.");
+                    System.out.println("You deal " + dice.shortsword + " damage to the goblin.");
+                    gbhealth = gbhealth-dice.shortsword;
+                    if (gbhealth <= 0){
+                        System.out.println("You have defeated the goblin.");
+                    }
+                } else {
+                    System.out.println("You miss the goblin.");
+                    System.out.println("It is now the goblin's turn.");
+                    }
                 }
             }
         }
@@ -89,16 +98,25 @@ public class CombatTest {
                 if (wpnchc == 1){
                     System.out.println("You attack the goblin with a shortsword.");
                     int playerrl = dice.d20;
-                    if (dice.d20 >= 12){
-                        System.out.println("You hit the goblin.");
-                        System.out.println("You deal " + dice.shortsword + " damage to the goblin.");
-                        gbhealth = gbhealth-dice.shortsword;
+                    if (playerrl == 20){
+                        System.out.println("You've landed a critical hit!");
+                        System.out.println("You deal " + (dice.shortsword*2) + " damage to the goblin.");
+                        gbhealth = gbhealth-(dice.shortsword*2);
                         if (gbhealth <= 0){
                             System.out.println("You have defeated the goblin.");
                         }
                     } else {
-                        System.out.println("You miss the goblin.");
-                        System.out.println("It is now the goblin's turn.");
+                        if (playerrl >= 12){
+                            System.out.println("You hit the goblin.");
+                            System.out.println("You deal " + dice.shortsword + " damage to the goblin.");
+                            gbhealth = gbhealth-dice.shortsword;
+                            if (gbhealth <= 0){
+                                System.out.println("You have defeated the goblin.");
+                            }
+                        } else {
+                            System.out.println("You miss the goblin.");
+                            System.out.println("It is now the goblin's turn.");
+                        }
                     }
                 }
             }
