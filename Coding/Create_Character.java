@@ -277,48 +277,6 @@ public class Create_Character {
                         System.out.println("9. Great Club");
                         System.out.println("10. Javelin");
                         int drudwes = scanner.nextInt();
-                    /*if (drudwes == 1) {
-                        System.out.println("That was an excellent choice a weapon to defend oneself is always needed.");
-                        int druidw = 123;
-                    }
-                    if (drudwes == 2) {
-                        System.out.println("That was an excellent choice a weapon to defend oneself is always needed.");
-                        int druidw = 1234;
-                    }
-                    if (drudwes == 3) {
-                        System.out.println("That was an excellent choice a weapon to defend oneself is always needed.");
-                        int druidw = 12345;
-                    }
-                    if (drudwes == 4) {
-                        System.out.println("That was an excellent choice a weapon to defend oneself is always needed.");
-                        int druidw = 123456;
-                    }
-                    if (drudwes == 5) {
-                        System.out.println("That was an excellent choice a weapon to defend oneself is always needed.");
-                        int druidw = 1234567;
-                    }
-                    if (drudwes == 6) {
-                        System.out.println("That was an excellent choice a weapon to defend oneself is always needed.");
-                        int druidw = 12345678;
-                    }
-                    if (drudwes == 7) {
-                        System.out.println("That was an excellent choice a weapon to defend oneself is always needed.");
-                        int druidw = 12;
-                    }
-                    if (drudwes == 8) {
-                        System.out.println("That was an excellent choice a weapon to defend oneself is always needed.");
-                        int druidw = 1;
-                    }
-                    if (drudwes == 9) {
-                        System.out.println("That was an excellent choice a weapon to defend oneself is always needed.");
-                        int druidw =123456789;
-                    }
-                    if (drudwes == 10) {
-                        System.out.println("That was an excellent choice a weapon to defend oneself is always needed.");
-                        int druidw = 1234567891;
-                    }
-
-                     */
                         if (drudwes > 0) {
                             System.out.println("That was an excelent choice a weapon to defend oneself is always needed.");
 

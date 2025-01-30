@@ -4,7 +4,7 @@ public class Where_do_you_go {
 
     public static void Run4() {
     //public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner can = new Scanner(System.in);
         String strait = "straight";
         String right = "right";
         String left = "left";
@@ -12,7 +12,9 @@ public class Where_do_you_go {
         String userAnswer;
         System.out.println("what direction do you want to go in");
         while(true) {
-            userAnswer = scanner.nextLine();
+            System.out.println("");
+            userAnswer = can.nextLine();
+            System.out.println("");
             if (userAnswer.equalsIgnoreCase(strait)) {
                 MainController.handleAction("CombatTest");
                 System.out.println("you enter the town");
@@ -33,7 +35,7 @@ public class Where_do_you_go {
                 System.out.println("");
                 System.out.println("");
             }
-        scanner.close();
+        can.close();
         }
     }
 }
