@@ -647,7 +647,7 @@ public class Create_Character {
         }
 
 
-
+    hi.close();
     hello.close();
     }
 }
