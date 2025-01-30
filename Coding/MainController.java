@@ -27,6 +27,12 @@ public class MainController {
             case "Intoduction":
                 Intoduction.Run7();
                 break;
+            case "Stores":
+                Stores.Run8();
+                break;
+            case "Blacksmith":
+                Blacksmith.Run9();
+                break;
            case "Keybinds":
 
             default:

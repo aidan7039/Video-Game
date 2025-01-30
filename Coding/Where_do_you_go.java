@@ -16,6 +16,8 @@ Create_Character cc = new Create_Character();
             if (userAnswer.equalsIgnoreCase(strait)) {
                 MainController.handleAction("CombatTest");
                 System.out.println("You enter the town");
+                System.out.println("You see many stores");
+                MainController.handleAction("Stores");
             }
             if (userAnswer.equalsIgnoreCase(right)) {
                 System.out.println("Your are heading towards a cliff");
@@ -33,7 +35,6 @@ Create_Character cc = new Create_Character();
                 System.out.println("");
                 System.out.println("");
             }
-        can.close();
         }
     }
 }
