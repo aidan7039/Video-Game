@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Intoduction {
     public static void Run7() {
         Scanner scanner = new Scanner(System.in);
+        System.out.println("what is your name");
         String name = scanner.nextLine();
         System.out.println("");
         System.out.println("");
