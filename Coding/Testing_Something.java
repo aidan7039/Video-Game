@@ -40,7 +40,7 @@ public class Testing_Something {
         int goblinrl = dice.d20gb;
         if (goblinrl >= AC) {
             System.out.println("You've been hit! You take " + (dice.d6gbscimitar) + " damage.");
-            System.out.println("Your health is now " + (health - dice.d6gbscimitar + " ."));
+            System.out.println("Your health is now " + (health - dice.d6gbscimitar + "."));
         } else {
             System.out.println("The goblin missed it is your turn to attack.");
         }
