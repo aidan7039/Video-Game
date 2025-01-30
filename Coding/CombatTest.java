@@ -85,12 +85,21 @@ public class CombatTest {
                 //attack
                 System.out.println("Select which weapon you would like to use.");
                 System.out.println("1. Shortsword");
-                System.out.println("2. Longsword");
-                System.out.println("3. Dagger");
-                System.out.println("4. Shortbow");
                 int wpnchc = scanner.nextInt();
                 if (wpnchc == 1){
-
+                    System.out.println("You attack the goblin with a shortsword.");
+                    int playerrl = dice.d20;
+                    if (dice.d20 >= 12){
+                        System.out.println("You hit the goblin.");
+                        System.out.println("You deal " + dice.shortsword + " damage to the goblin.");
+                        gbhealth = gbhealth-dice.shortsword;
+                        if (gbhealth <= 0){
+                            System.out.println("You have defeated the goblin.");
+                        }
+                    } else {
+                        System.out.println("You miss the goblin.");
+                        System.out.println("It is now the goblin's turn.");
+                    }
                 }
             }
             if (choiceagn == 2){
