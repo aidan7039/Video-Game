@@ -37,7 +37,11 @@ public class Dice {
     int d617 = random.nextInt(6) + 1;
     int d618 = random.nextInt(6) + 1;
     int d6gbscimitar = random.nextInt(6) + 1;
+    int d6gbscimitar2 = random.nextInt(6) + 1;
+    int d6gbscimitar3 = random.nextInt(6) + 1;
     int d20gb = random.nextInt(20) + 1;
+    int d20gb2 = random.nextInt(20) + 1;
+    int gbopportunity = random.nextInt(20) + 1;
 
     public static void main(String[] args) {
 
