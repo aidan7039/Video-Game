@@ -9,7 +9,7 @@ public class CombatTest {
 
         int health = 3 + dice.d10;
         //int gbhealth = 0 + (dice.d6*2);
-        int gbhealth = 7;
+        int gbhealth = 1;
         int DexModifier = 2;
         int AC = 13;
         int goblinAC = 12;

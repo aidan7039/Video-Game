@@ -22,7 +22,18 @@ Create_Character cc = new Create_Character();
             if (userAnswer.equalsIgnoreCase(right)) {
                 System.out.println("Your are heading towards a cliff");
                 System.out.println("Do you want to keep going?");
-                MainController.handleAction("CombatTest");
+                String Yes = "yes";
+                String No = "no";
+                String userAnswers;
+                while(true) {
+                    userAnswers = can.nextLine();
+                    if (userAnswers.equalsIgnoreCase(Yes)){
+                        System.out.println("you have fallen off a cliff");
+                        System.out.println("you have died");
+                    }if (userAnswers.equalsIgnoreCase(No)){
+                        System.out.println("which way do you want to go?");
+                    }
+                }
             }
             if (userAnswer.equalsIgnoreCase(left)) {
                 System.out.println("You are in a river");
