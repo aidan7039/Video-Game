@@ -20,6 +20,7 @@ public class Stores {
             }
             if (userAnswer.equalsIgnoreCase(tavern)) {
                 System.out.println("do you want a drink?");
+                MainController.handleAction("Tavern");
             }
         }
     }

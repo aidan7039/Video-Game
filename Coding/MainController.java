@@ -36,6 +36,9 @@ public class MainController {
             case "General_store":
                 General_store.Run10();
                 break;
+            case "Tavern":
+                Tavern.Run11();
+                break;
            case "Keybinds":
 
             default:
