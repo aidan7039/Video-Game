@@ -9,15 +9,17 @@ public class CombatTest {
 
         int health = 3 + dice.d10;
         //int gbhealth = 0 + (dice.d6*2);
-        int gbhealth = 1;
+        int gbhealth = 7;
         int DexModifier = 2;
         int AC = 13;
         int goblinAC = 12;
+        int check = 0;
         dice.d6gbscimitar = dice.d6gbscimitar + 2;
         dice.d6gbscimitar2 = dice.d6gbscimitar2 + 2;
 
         //This whole encounter is made assuming that the player is a fighter
         System.out.println("Your maximum health is " + health + ".");
+        while (check == 0){
         System.out.println("You've been spotted by a goblin they're about to attack you!");
         int goblinrl = dice.d20gb;
         if (goblinrl == 20) {
@@ -66,6 +68,7 @@ public class CombatTest {
                 System.out.println("You deal " + (dice.shortsword*2) + " damage to the goblin.");
                 gbhealth = gbhealth-(dice.shortsword*2);
                 if (gbhealth <= 0){
+                    check = check + 1;
                     System.out.println("You have defeated the goblin.");
                 }
             } else {
@@ -74,6 +77,7 @@ public class CombatTest {
                     System.out.println("You deal " + dice.shortsword + " damage to the goblin.");
                     gbhealth = gbhealth-dice.shortsword;
                     if (gbhealth <= 0){
+                        check = check + 1;
                         System.out.println("You have defeated the goblin.");
                     }
                 } else {
@@ -103,6 +107,7 @@ public class CombatTest {
                         System.out.println("You deal " + (dice.shortsword*2) + " damage to the goblin.");
                         gbhealth = gbhealth-(dice.shortsword*2);
                         if (gbhealth <= 0){
+                            check = check + 1;
                             System.out.println("You have defeated the goblin.");
                         }
                     } else {
@@ -111,6 +116,7 @@ public class CombatTest {
                             System.out.println("You deal " + dice.shortsword + " damage to the goblin.");
                             gbhealth = gbhealth-dice.shortsword;
                             if (gbhealth <= 0){
+                                check = check + 1;
                                 System.out.println("You have defeated the goblin.");
                             }
                         } else {
@@ -222,6 +228,7 @@ public class CombatTest {
                 }
             } else {
                 System.out.println("You successfully escaped.");
+                }
             }
         }
     }
