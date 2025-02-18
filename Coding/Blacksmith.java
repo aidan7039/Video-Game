@@ -11,10 +11,11 @@ public class Blacksmith {
             userAnswer = scanner.nextLine();
             if (userAnswer.equalsIgnoreCase(longSword)) {
                 System.out.println("That will be 30 gold");
-            }
-            if (userAnswer.equalsIgnoreCase(bow)) {
+            } else if (userAnswer.equalsIgnoreCase(bow)) {
                 System.out.println("That will be 2 gold");
-            }
+            } else {
+                System.out.println("We don't have that item");
+            } MainController.handleAction("Stores");
         }
     }
 }

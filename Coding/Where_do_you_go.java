@@ -10,7 +10,6 @@ public class Where_do_you_go {
         Scanner can = new Scanner(System.in);
 
         System.out.println("What direction do you want to go in");
-
         while (true) {
             userAnswer = can.nextLine();
             switch (userAnswer.toLowerCase()) {
