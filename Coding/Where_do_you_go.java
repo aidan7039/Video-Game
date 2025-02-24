@@ -14,7 +14,7 @@ public class Where_do_you_go {
             userAnswer = can.nextLine();
             switch (userAnswer.toLowerCase()) {
                 case "north":
-                    MainController.handleAction("CombatTest");
+                    //MainController.handleAction("CombatTest");
                     System.out.println("You enter the town");
                     System.out.println("You see many stores");
                     MainController.handleAction("Stores");

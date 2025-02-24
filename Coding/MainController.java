@@ -39,6 +39,9 @@ public class MainController {
             case "Tavern":
                 Tavern.Run11();
                 break;
+            case "Leave_town":
+                Leave_town.Run12();
+                break;
            case "Keybinds":
 
             default:

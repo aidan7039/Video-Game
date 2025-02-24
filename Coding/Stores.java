@@ -13,13 +13,16 @@ public class Stores {
             if (userAnswer.equalsIgnoreCase(blacksmith)) {
                 System.out.println("what do you want to buy here?");
                 MainController.handleAction("Blacksmith");
-            }
-            if (userAnswer.equalsIgnoreCase(general_store)) {
+            } else if (userAnswer.equalsIgnoreCase(general_store)) {
                 System.out.println("Do you want to look at whats here?");
                 MainController.handleAction("General_store");
-            }
-            if (userAnswer.equalsIgnoreCase(tavern)) {
+            } else if (userAnswer.equalsIgnoreCase(tavern)) {
                 MainController.handleAction("Tavern");
+            } else if (userAnswer.equalsIgnoreCase("leave")) {
+                System.out.println("You leave the town");
+                MainController.handleAction("Where_do_you_go");
+            } else {
+                System.out.println("Invalid store. Please try again.");
             }
         }
     }
