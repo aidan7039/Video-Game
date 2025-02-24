@@ -16,11 +16,12 @@ public class Leave_town {
             String Useranswer = scanner.nextLine();
             if (Useranswer.equalsIgnoreCase("yes")) {
                 System.out.println("what direction do you want to go in");
-            }   
+            } else {
+                MainController.handleAction("Leave_town");
+            }
         } else {
             System.out.println("you are attacked by a group of wolves");
             System.out.println("you have died");
         }
-        MainController.handleAction("Where_do_you_go");
     }
 }
