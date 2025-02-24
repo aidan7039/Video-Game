@@ -19,11 +19,10 @@ public class Stores {
             } else if (userAnswer.equalsIgnoreCase(tavern)) {
                 MainController.handleAction("Tavern");
             } else if (userAnswer.equalsIgnoreCase("leave")) {
-                System.out.println("You leave the town");
                 MainController.handleAction("Leave_town");
             } else {
                 System.out.println("Invalid store. Please try again.");
-            }
+            } scanner.close();
         }
     }
 }

@@ -22,6 +22,7 @@ public class Leave_town {
         } else {
             System.out.println("you are attacked by a group of wolves");
             System.out.println("you have died");
+            System.exit(0);
         }
     }
 }

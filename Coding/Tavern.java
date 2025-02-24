@@ -10,9 +10,10 @@ public class Tavern {
                 System.out.println("That will be 1 gold piece please");
             }else if (userAnswer.equalsIgnoreCase("no")){
                 System.out.println("You have been kicked out of the town");
+                MainController.handleAction("Leave_town");
             } else {
                 System.out.println("Invalid response. Please answer 'yes' or 'no'.");
-            } 
+            } scanner.close();
         }
     }
 }
