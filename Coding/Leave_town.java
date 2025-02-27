@@ -16,6 +16,7 @@ public class Leave_town {
             String Useranswer = scanner.nextLine();
             if (Useranswer.equalsIgnoreCase("yes")) {
                 System.out.println("what direction do you want to go in");
+                
             } else {
                 MainController.handleAction("Leave_town");
             }
@@ -23,6 +24,6 @@ public class Leave_town {
             System.out.println("you are attacked by a group of wolves");
             System.out.println("you have died");
             System.exit(0);
-        }
+        }scanner.close();
     }
 }
