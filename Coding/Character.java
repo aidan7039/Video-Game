@@ -84,8 +84,5 @@ public class Character {
             System.out.println("Goblin hit Kleebur and dealt " + (scimitar) + " damage");
             System.out.println("Kleebur's HP is now " + (Kleebur.HP-scimitar));
         }
-
-        /*int atkroll = Kleebur.atkRoll(0);
-        System.out.println(atkroll);*/
     }
 }
