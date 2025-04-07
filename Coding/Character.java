@@ -44,28 +44,48 @@ public class Character {
             System.out.println("Weapon:" + weapon);
         }
 
-    public void attack() {
-            int d20 = random.nextInt(20) + 1;
-        if(weapon == "shortsword") {
-            int shortsword = random.nextInt(6) + 1;
-            System.out.println("Attack Roll:" + d20);
-            System.out.println("Damage Roll" + shortsword);
-        } if (weapon == "scimitar"){
-            int scimitar = random.nextInt(6) + 1;
-            System.out.println("Attack Roll" + d20);
-            System.out.println("Damage Roll" + scimitar + 2);
-        }
+    public int atkShortsword(int a){
+        int result = a + random.nextInt(6) + 1;
+        return result;
     }
 
-    public void rollInitiative(){
-            int rollIni = random.nextInt(20) + 1;
-            System.out.println(rollIni);
+    public int atkScimitar(int a){
+        int result = a + random.nextInt(6) + 1;
+        return result;
+    }
+
+    public int rollInitiative(int a){
+            int rollIni = a + random.nextInt(20) + 1;
+            return rollIni;
+    }
+
+    public int atkRoll(int a){
+        int result = a + random.nextInt(20) + 1;
+        return result;
     }
 
     public static void main(String[] args) {
 
-            Character Kleebur = new Character("Kleebur",14,16,14,18,12,10,14,23,30, "shortsword");
+            Character Kleebur = new Character("Kleebur",14,16,14,18,12,10,14,12,30, "shortsword");
+            Character Goblin = new Character("Goblin", 8,14,10,10,8,8,11,7,30,"scimitar");
 
         Kleebur.listStats();
+        int atkrl = Kleebur.atkRoll(0);
+        int atkrl2 = Goblin.atkRoll(0);
+        System.out.println("Kleebur rolled a " + atkrl);
+        System.out.println("Goblin rolled a " + atkrl2);
+        if(atkrl >= Goblin.AC){
+            int shrtswrd = Kleebur.atkShortsword(0);
+            System.out.println("Kleebur hit the goblin and dealt " + (shrtswrd) + " damage");
+            System.out.println("The Goblin's HP is now " + (Goblin.HP-shrtswrd));
+        }
+        if (atkrl2 >= Kleebur.AC){
+            int scimitar = Goblin.atkScimitar(0);
+            System.out.println("Goblin hit Kleebur and dealt " + (scimitar) + " damage");
+            System.out.println("Kleebur's HP is now " + (Kleebur.HP-scimitar));
+        }
+
+        /*int atkroll = Kleebur.atkRoll(0);
+        System.out.println(atkroll);*/
     }
 }
