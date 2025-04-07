@@ -45,6 +45,7 @@ public class Where_do_you_go {
             if (userAnswers.equalsIgnoreCase("yes")) {
                 System.out.println("You have fallen off a cliff");
                 System.out.println("You have died");
+                System.exit(0);
                 break;
             } else if (userAnswers.equalsIgnoreCase("no")) {
                 System.out.println("Which way do you want to go?");
