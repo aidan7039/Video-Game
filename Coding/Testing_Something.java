@@ -1,4 +1,4 @@
-package Coding;
+/*package Coding;
 import java.lang.Integer;
 import java.util.Random;
 import java.util.Scanner;
@@ -288,5 +288,5 @@ public class Testing_Something {
         the below line shows that we can use Strings from other classes
         System.out.println(gdh.story);
         }*/
-    }
-}
+ /*   }
+}*/
