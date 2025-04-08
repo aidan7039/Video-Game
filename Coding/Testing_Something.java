@@ -41,9 +41,7 @@ public class Testing_Something {
         Character Kleebur = new Character("Kleebur",14,16,14,18,12,10,14,23,30, "shortsword");
         Character Goblin = new Character("Goblin", 8,14,10,10,8,8,15,7,30,"scimitar");
 
-        Goblin.rollInitiative();
-        Kleebur.rollInitiative();
-
+    
 
 
         //This whole encounter is made assuming that the player is a fighter

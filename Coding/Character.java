@@ -16,7 +16,7 @@ public class Character {
         int speed;
         String weapon;
 
-        public Character(String name, int strength, int dexterity, int constitution, int intelligence, int wisdom, int charisma, int AC, int HP, int speed, String weapon){
+        public Character(String name, String CClass, int strength, int dexterity, int constitution, int intelligence, int wisdom, int charisma, int AC, int HP, int speed, String weapon){
             this.name = name;
             this.strength = strength;
             this.dexterity = dexterity;
@@ -66,10 +66,11 @@ public class Character {
 
     public static void main(String[] args) {
 
-            Character Kleebur = new Character("Kleebur",14,16,14,18,12,10,14,12,30, "shortsword");
-            Character Goblin = new Character("Goblin", 8,14,10,10,8,8,11,7,30,"scimitar");
+            Character Kleebur = new Character("Kleebur","wizard",14,16,14,18,12,10,14,12,30, "shortsword");
+            Character Goblin = new Character("Goblin","fighter",8,14,10,10,8,8,11,7,30,"scimitar");
 
         Kleebur.listStats();
+        //below is a very basic example of combat with the new character classes
         int atkrl = Kleebur.atkRoll(0);
         int atkrl2 = Goblin.atkRoll(0);
         System.out.println("Kleebur rolled a " + atkrl);
