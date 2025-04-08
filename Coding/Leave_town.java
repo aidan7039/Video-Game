@@ -11,12 +11,14 @@ public class Leave_town {
             System.out.println("you find a path leading to a cave");
             System.out.println("you can smell rotting flesh");
             System.out.println("Do you want to go in?");
+            System.out.println("You have been killed by a goblin");
+            System.exit(0);
         } else if (userAnswer.equalsIgnoreCase("no")) {
             System.out.println("do you wish to go and wander in a different direction?");
             String Useranswer = scanner.nextLine();
             if (Useranswer.equalsIgnoreCase("yes")) {
                 System.out.println("what direction do you want to go in");
-                
+                System.exit(0);
             } else {
                 MainController.handleAction("Leave_town");
             }

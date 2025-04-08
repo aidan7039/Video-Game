@@ -16,6 +16,7 @@ public class Blacksmith {
             } else {
                 System.out.println("We don't have that item");
             } MainController.handleAction("Stores");
+            scanner.close();
         }
     }
 }
