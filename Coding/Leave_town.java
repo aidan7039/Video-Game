@@ -2,6 +2,7 @@ package Coding;
 import java.util.Scanner;
 public class Leave_town {
     public static void Run12() {
+    //public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("You leave the town");
         System.out.println("You are now in the wilderness");
@@ -18,7 +19,16 @@ public class Leave_town {
             String Useranswer = scanner.nextLine();
             if (Useranswer.equalsIgnoreCase("yes")) {
                 System.out.println("what direction do you want to go in");
-                System.exit(0);
+                String UserAnswer = scanner.nextLine();
+                if (UserAnswer.equalsIgnoreCase("north")) {
+                    System.out.println("you head towards a clearing that you see in the distance");
+                    System.out.println("when you get into the clearing the trees close behind you and you find");
+                    System.out.println("yourself traped");
+                    System.exit(0);
+                } else if (UserAnswer.equalsIgnoreCase("South")) {
+                    MainController.handleAction("Stores");
+                    System.exit(0);
+                }
             } else {
                 MainController.handleAction("Leave_town");
             }
