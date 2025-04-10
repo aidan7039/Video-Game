@@ -28,6 +28,13 @@ public class Leave_town {
                 } else if (UserAnswer.equalsIgnoreCase("South")) {
                     MainController.handleAction("Stores");
                     System.exit(0);
+                } else if (UserAnswer.equalsIgnoreCase("West")) {
+                } else if (UserAnswer.equalsIgnoreCase("look around")) {
+                    System.out.println("To the East you see a path that leads to into the wilderness");
+                    System.out.println("To the North you see a forest");
+                    System.out.println("To the South you see the village that you left");
+                    System.out.println("To the West you see the mountains");
+                    MainController.handleAction("Leave_town");
                 }
             } else {
                 MainController.handleAction("Leave_town");

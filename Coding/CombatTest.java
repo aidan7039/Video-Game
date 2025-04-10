@@ -12,7 +12,7 @@ public class CombatTest {
         int gbhealth = 1;
         int DexModifier = 2;
         int AC = 13;
-        int goblinAC = 12;
+        int goblinAC = 1;
         int check = 0;
         dice.d6gbscimitar = dice.d6gbscimitar + 2;
         dice.d6gbscimitar2 = dice.d6gbscimitar2 + 2;
