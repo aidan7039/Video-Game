@@ -72,7 +72,20 @@ public class Character {
             COmbat combat = new COmbat();
         Kleebur.listStats();
         //below is a very basic example of combat with the new character classes
-        
+        int Ghealth = combat.Combat(7);
+        if (Ghealth > 0) {
+            int Ghealth2 = combat.Combat(Ghealth);
+            if (Ghealth2 <= 0) {
+                System.out.println("you have killed the goblin");
+            } else {
+                int Ghealth3 = combat.Combat(Ghealth2);
+                if (Ghealth3 <= 0) {
+                    System.out.println("you have killed the goblin");
+                }
+            }
+        } else {
+            System.out.println("You have killed the goblin");
+        }
         /*int atkrl = Kleebur.atkRoll(0);
         int atkrl2 = Goblin.atkRoll(0);
         System.out.println("Kleebur rolled a " + atkrl);
