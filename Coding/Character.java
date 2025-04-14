@@ -43,6 +43,7 @@ public class Character {
             System.out.println("Speed:" + speed);
             System.out.println("Weapon:" + weapon);
         }
+        
 
     public int atkShortsword(int a){
         int result = a + random.nextInt(6) + 1;
@@ -68,10 +69,11 @@ public class Character {
 
             Character Kleebur = new Character("Kleebur","wizard",14,16,14,18,12,10,14,12,30, "shortsword");
             Character Goblin = new Character("Goblin","fighter",8,14,10,10,8,8,11,7,30,"scimitar");
-
+            COmbat combat = new COmbat();
         Kleebur.listStats();
         //below is a very basic example of combat with the new character classes
-        int atkrl = Kleebur.atkRoll(0);
+        
+        /*int atkrl = Kleebur.atkRoll(0);
         int atkrl2 = Goblin.atkRoll(0);
         System.out.println("Kleebur rolled a " + atkrl);
         System.out.println("Goblin rolled a " + atkrl2);
@@ -83,7 +85,7 @@ public class Character {
         if (atkrl2 >= Kleebur.AC){
             int scimitar = Goblin.atkScimitar(0);
             System.out.println("Goblin hit Kleebur and dealt " + (scimitar) + " damage");
-            System.out.println("Kleebur's HP is now " + (Kleebur.HP-scimitar));
+            System.out.println("Kleebur's HP is now " + (Kleebur.HP-scimitar));*/
         }
     }
-}
+
